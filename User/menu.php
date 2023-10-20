@@ -14,7 +14,7 @@
   <a href="Rateus.php" target="_blank">Rate Us</a>
   <a href="Contactus.php" target="_blank">Contact Us</a>
   <div class="search-container">
-    <form action="search.php"> <!-- Update the action attribute to your search processing PHP file -->
+    <form action="search.php"> 
       <input type="text" placeholder="Search Menu" name="search">
       <button type="submit" id="searchButton"><i class="fa fa-search"></i></button>
     </form>
