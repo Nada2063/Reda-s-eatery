@@ -1,116 +1,116 @@
 body, h1, h2, h3, p, ul, li, button {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #000000;
-  }
-  
-  .topnav {
-    background-color: rgb(148, 81, 81);
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  .topnav a {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 10px 15px;
-  }
-  
-  .topnav a.active {
-    background-color: orangered;
-  }
-  
-  .topnav a:hover {
-    background-color: orangered;
-  }
-  
-  .search-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .search-container input[type="text"] {
-    padding: 5px;
-    border: 1px solid orangered;
-  }
-  
-  #searchButton {
-    background-color: orangered;
-    color: #fff;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-  }
-  
-  .name {
-    text-align: right;
-    padding-right: 20px;
-  }
-  
-  .main {
-    background-color: #000000;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid orangered;
-  }
-  
-  .main h2 {
-    border-bottom: 1px solid orangered;
-    padding-bottom: 10px;
-  }
-  
-  .menu {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-  }
-  
-  .menu-item {
-    text-align: center;
-    padding: 10px;
-    border: 1px solid orangered;
-    border-radius: 5px;
-  }
-  
-  .menu-item img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 5px;
-  }
-  
-  .menu-item p {
-    margin: 5px 0;
-  }
-  
-  .addButton, .orderButton, .deleteButton {
-    background-color: orangered;
-    color: #fff;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    margin-right: 5px;
-  }
-  
-  .addButton:hover, .orderButton:hover, .deleteButton:hover {
-    background-color: orangered;
-  }
-  
-  .footer {
-    background-color: #000000;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  .footer p {
-    margin: 0;
-  }
-  
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+}
+
+.topnav {
+  background-color: rgb(148, 81, 81);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.topnav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.topnav a.active {
+  background-color: orangered;
+}
+
+.topnav a:hover {
+  background-color: orangered;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container input[type="text"] {
+  padding: 5px;
+  border: 1px solid orangered;
+}
+
+#searchButton {
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.name {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.main {
+  background-color: #000000;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid orangered;
+}
+
+.main h2 {
+  border-bottom: 1px solid orangered;
+  padding-bottom: 10px;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.menu-item {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid orangered;
+  border-radius: 5px;
+}
+
+.menu-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.menu-item p {
+  margin: 5px 0;
+}
+
+.addButton, .orderButton, .deleteButton {
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.addButton:hover, .orderButton:hover, .deleteButton:hover {
+  background-color: orangered;
+}
+
+.footer {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer p {
+  margin: 0;
+}
