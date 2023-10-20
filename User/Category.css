@@ -1,17 +1,18 @@
 body, h1, h2, h3, p, ul, li, button {
     margin: 0;
     padding: 0;
+    color: #ffffff;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff; 
+    background-color: #000000; 
 }
 
 
 .topnav {
-    background-color: #000000;
-    color: #fff;
+    background-color: rgb(148, 81, 81);
+    color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,11 +26,11 @@ body {
 }
 
 .topnav a.active {
-    background-color: #E6A4B4;
+    background-color: orangered;
 }
 
 .topnav a:hover {
-    background-color: #C86B85;
+    background-color: orangered;
 }
 
 
@@ -40,22 +41,22 @@ body {
 
 .search-container input[type="text"] {
     padding: 5px;
-    border: 1px solid #F3D7CA;
+    border: 1px solid orangered;
 }
 
 #searchButton {
-    background-color: #E6A4B4; 
-    color: #fff;
+    background-color: orangered; 
+    color: #ffffff;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
 }
 
 .main {
-    background-color: #ffffff;
+    background-color: #000000;
     margin: 20px;
     padding: 20px;
-    border: 1px solid #F3D7CA;
+    border: 1px solid orangered;
 }
 
 .name {
@@ -71,6 +72,7 @@ h2 {
     color: #000000;
     margin: 20px;
     fill: #000000;
+    text-decoration: none;
 }
 
 .button:hover{
@@ -81,8 +83,8 @@ h2 {
 
 
 .category-button {
-    background-color: #E6A4B4;
-    color: #fff;
+    background-color: orangered;
+    color: #ffffff;
     padding: 10px;
     cursor: pointer;
     border-radius: 5px;
@@ -92,12 +94,12 @@ h2 {
 }
 
 .category-button:hover {
-    background-color: #E6A4B4;
+    background-color: orangered;
 }
 
 button {
-    background-color: #E6A4B4;
-    color: #fff;
+    background-color: orangered;
+    color: #ffffff;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
@@ -109,7 +111,7 @@ button:hover {
 
 .footer {
     background-color: #000000; 
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     padding: 10px;
 }
