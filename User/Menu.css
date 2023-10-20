@@ -90,7 +90,7 @@ body, h1, h2, h3, p, ul, li, button {
     margin: 5px 0;
   }
   
-  .addButton, .editButton, .deleteButton {
+  .addButton, .orderButton, .deleteButton {
     background-color: #E6A4B4;
     color: #fff;
     border: none;
@@ -99,7 +99,7 @@ body, h1, h2, h3, p, ul, li, button {
     margin-right: 5px;
   }
   
-  .addButton:hover, .editButton:hover, .deleteButton:hover {
+  .addButton:hover, .orderButton:hover, .deleteButton:hover {
     background-color: #C86B85;
   }
   
