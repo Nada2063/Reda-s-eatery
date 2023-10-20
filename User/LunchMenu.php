@@ -8,28 +8,28 @@
 <body>
 <div class="topnav">
   <div class="img">
-  <img src="logo.jpg" height="50" width="50">
+    <img src="logo.jpg" height="50" width="50">
   </div>
-  <a class="active" href="menu.html">Menu</a>
-  <a href="Rateus.html " target=”_blank”>Rate Us</a>
-  <a href="Contactus.html" target=”_blank”>Contact Us</a>
+  <a class="active" href="menu.php">Menu</a>
+  <a href="Rateus.php" target="_blank">Rate Us</a>
+  <a href="Contactus.php" target="_blank">Contact Us</a>
   <div class="search-container">
-    <form action="www.google.com">
+    <form action="search.php"> <!-- Update the action attribute to your search processing PHP file -->
       <input type="text" placeholder="Search Menu" name="search">
       <button type="submit" id="searchButton"><i class="fa fa-search"></i></button>
     </form>
   </div>
   <div class="name">
-    <p>Reda's Eatery </p>
+    <p>Reda's Eatery</p>
   </div>  
 </div>
 <div>
   <div class="main">
-    <h2>Dinner Menu</h2>
+    <h2>Lunch Menu</h2>
     <div class="menu">
       <div class="menu-item">
-        <img src="api.jpg">
-        <p>Appetizers</p>
+        <img src="burger.jpg">
+        <p>Burger</p>
         <p>Price: 20.00$</p>
         <button class="addButton">Add</button>
         <button class="orderButton">Order</button>
@@ -37,54 +37,27 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="Potage.jpg">
-        <p>Potage Creme</p>
-        <p>Price: 10.00$</p>
+        <img src="pasta.jpeg">
+        <p>Pasta</p>
+        <p>Price: 60.00$</p>
         <button class="addButton">Add</button>
         <button class="orderButton">Order</button>
         <button class="deleteButton">Delete</button>
       </div>
       <hr>
       <div class="menu-item">
-        <img src="casser salad.jpg">
-        <p>Casser Salad</p>
-        <p>Price: 18.00$</p>
+        <img src="lasg.jpg">
+        <p>Lasagna</p>
+        <p>Price: 28.00$</p>
         <button class="addButton">Add</button>
         <button class="orderButton">Order</button>
         <button class="deleteButton">Delete</button>
       </div>
       <hr>
       <div class="menu-item">
-        <img src="fried mozzarella cheese sticks.jpg">
-        <p>Fried mozzarella cheese sticks</p>
-        <p>Price: 15.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="pc.webp">
-        <p>Pasta Chicken</p>
-        <p>Price: 25.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="chickenw.jpg">
-        <p>Chicken Wings</p>
+        <img src="loi.jpg">
+        <p>Sandwich</p>
         <p>Price: 30.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="burger.jpeg">
-        <p>Burger</p>
-        <p>Price: 25.00$</p>
         <button class="addButton">Add</button>
         <button class="orderButton">Order</button>
         <button class="deleteButton">Delete</button>
@@ -93,6 +66,42 @@
       <div class="menu-item">
         <img src="pizza.jpeg">
         <p>Pizza</p>
+        <p>Price: 37.00$</p>
+        <button class="addButton">Add</button>
+        <button class="orderButton">Order</button>
+        <button class="deleteButton">Delete</button>
+      </div>
+      <hr>
+      <div class="menu-item">
+        <img src="hotd.jpg">
+        <p>Hot Dog</p>
+        <p>Price: 18.00$</p>
+        <button class="addButton">Add</button>
+        <button class="orderButton">Order</button>
+        <button class="deleteButton">Delete</button>
+      </div>
+      <hr>
+      <div class="menu-item">
+        <img src="fet.jpg">
+        <p>Fettuccine Alfredo</p>
+        <p>Price: 22.00$</p>
+        <button class="addButton">Add</button>
+        <button class="orderButton">Order</button>
+        <button class="deleteButton">Delete</button>
+      </div>
+      <hr>
+      <div class="menu-item">
+        <img src="byry.jpg">
+        <p>Biryani</p>
+        <p>Price: 32.00$</p>
+        <button class="addButton">Add</button>
+        <button class="orderButton">Order</button>
+        <button class="deleteButton">Delete</button>
+      </div>
+      <hr>
+      <div class="menu-item">
+        <img src="chic.jpg">
+        <p>chicken wings</p>
         <p>Price: 25.00$</p>
         <button class="addButton">Add</button>
         <button class="orderButton">Order</button>
@@ -100,27 +109,27 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="fried chicken.jpg">
-        <p>Fried Chicken</p>
-        <p>Price: 35.00$</p>
+        <img src="sushi.jpg">
+        <p>Sushi</p>
+        <p>Price: 32.00$</p>
         <button class="addButton">Add</button>
         <button class="orderButton">Order</button>
         <button class="deleteButton">Delete</button>
       </div>
       <hr>
       <div class="menu-item">
-        <img src="steak.jpg">
-        <p>Steak</p>
-        <p>Price: 45.00$</p>
+        <img src="noodles.jpg">
+        <p>Noodles</p>
+        <p>Price: 12.00$</p>
         <button class="addButton">Add</button>
         <button class="orderButton">Order</button>
         <button class="deleteButton">Delete</button>
       </div>
       <hr>
       <div class="menu-item">
-        <img src="Mashed Potatoes.jpg">
-        <p>Mashed Potatoes</p>
-        <p>Price: 15.00$</p>
+        <img src="sandw.jpg">
+        <p>Sandwich</p>
+        <p>Price: 32.00$</p>
         <button class="addButton">Add</button>
         <button class="orderButton">Order</button>
         <button class="deleteButton">Delete</button>
@@ -130,7 +139,7 @@
   </div>
 </div>
 <div class="footer">
-  <p>© 2023 Meal Makers. All Rights Reserved.</p>
+  <p>© <?php echo date("Y"); ?> Meal Makers. All Rights Reserved.</p>
 </div>
 <script src="script.js"></script>
 </body>

@@ -6,22 +6,22 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<div class="topnav">            
+<div class="topnav">
   <div class="img">
-  <img src="logo.jpg" height="50" width="50">
+    <img src="logo.jpg" height="50" width="50">
   </div>
-  <a class="active" href="menu.html">Menu</a>
-  <a href="Rateus.html " target=”_blank”>Rate Us</a>
-  <a href="Contactus.html" target=”_blank”>Contact Us</a>
+  <a class="active" href="menu.php">Menu</a>
+  <a href="Rateus.php" target="_blank">Rate Us</a>
+  <a href="Contactus.php" target="_blank">Contact Us</a>
   <div class="search-container">
-    <form action="www.google.com">
+    <form action="search.php">
       <input type="text" placeholder="Search Menu" name="search">
       <button type="submit" id="searchButton"><i class="fa fa-search"></i></button>
     </form>
   </div>
   <div class="name">
-    <p>Reda's Eatery </p>
-  </div>  
+    <p>Reda's Eatery</p>
+  </div>
 </div>
 <div>
   <div class="main">
@@ -139,7 +139,7 @@
   </div>
 </div>
 <div class="footer">
-  <p>© 2023 Meal Makers. All Rights Reserved.</p>
+  <p>© <?php echo date("Y"); ?> Meal Makers. All Rights Reserved.</p>
 </div>
 <script src="script.js"></script>
 </body>
