@@ -5,11 +5,11 @@ body, h1, h2, h3, p, ul, li, button {
   
   body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    background-color: #000000;
   }
   
   .topnav {
-    background-color: #000000;
+    background-color: rgb(148, 81, 81);
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -24,11 +24,11 @@ body, h1, h2, h3, p, ul, li, button {
   }
   
   .topnav a.active {
-    background-color: #E6A4B4;
+    background-color: orangered;
   }
   
   .topnav a:hover {
-    background-color: #C86B85;
+    background-color: orangered;
   }
   
   .search-container {
@@ -38,11 +38,11 @@ body, h1, h2, h3, p, ul, li, button {
   
   .search-container input[type="text"] {
     padding: 5px;
-    border: 1px solid #F3D7CA;
+    border: 1px solid orangered;
   }
   
   #searchButton {
-    background-color: #E6A4B4;
+    background-color: orangered;
     color: #fff;
     border: none;
     padding: 5px 10px;
@@ -55,14 +55,14 @@ body, h1, h2, h3, p, ul, li, button {
   }
   
   .main {
-    background-color: #ffffff;
+    background-color: #000000;
     margin: 20px;
     padding: 20px;
-    border: 1px solid #F3D7CA;
+    border: 1px solid orangered;
   }
   
   .main h2 {
-    border-bottom: 1px solid #F3D7CA;
+    border-bottom: 1px solid orangered;
     padding-bottom: 10px;
   }
   
@@ -75,7 +75,7 @@ body, h1, h2, h3, p, ul, li, button {
   .menu-item {
     text-align: center;
     padding: 10px;
-    border: 1px solid #F3D7CA;
+    border: 1px solid orangered;
     border-radius: 5px;
   }
   
@@ -91,7 +91,7 @@ body, h1, h2, h3, p, ul, li, button {
   }
   
   .addButton, .orderButton, .deleteButton {
-    background-color: #E6A4B4;
+    background-color: orangered;
     color: #fff;
     border: none;
     padding: 5px 10px;
@@ -100,7 +100,7 @@ body, h1, h2, h3, p, ul, li, button {
   }
   
   .addButton:hover, .orderButton:hover, .deleteButton:hover {
-    background-color: #C86B85;
+    background-color: orangered;
   }
   
   .footer {
