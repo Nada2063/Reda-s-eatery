@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     
     <link rel="stylesheet" href="Css/user.css">
-    <link rel="stylesheet" href="admincss.css">
+    <link rel="stylesheet" href="Css/admincss.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
@@ -26,7 +26,7 @@
         <ul>
             <li onclick="change_view('uss')"> <img src="photos/profile.png" alt=""><span> Users</span></li>
             <hr>
-            <li onclick="change_view('mmn')"> <img src="photos/playlist.png" alt=""><span> Menu</span></li>
+            <li onclick="change_view('mmn')"> <img src="photos/playlist.png" alt=""><a href='Menu.php'><span> Menu</span></li>
             <hr>
             <li onclick="change_view('ordd')"> <img src="photos/website.png" alt=""><span> Orders</span>
             </li>

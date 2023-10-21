@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <link rel="stylesheet" href="homecss.css">
+    <link rel="stylesheet" href="Css/homecss.css">
     <script src="https://kit.fontawesome.com/f4bd0b4361.js" crossorigin="anonymous"></script>
 
 

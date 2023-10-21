@@ -4,12 +4,12 @@
 </style>
 <html lang="en">
   <head>
-    <title></title>
+    <title>Sign In</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="icon" href="imgs/sweet dreams logo-01.png"type="image/icon type" />
-    <link rel="stylesheet" href="signin.css" />
+    <link rel="stylesheet" href="Css/signin.css" />
   </head>
 
   <body>
