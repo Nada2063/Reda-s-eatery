@@ -28,7 +28,7 @@
     <h2>Desserts Menu</h2>
     <div class="menu">
       <div class="menu-item">
-        <img src="red.jpg">
+        <img src="photoss/red.jpg">
         <p>Red velvet cake</p>
         <p>Price: 15.00$</p>
         <button class="addButton">Add</button>
@@ -37,7 +37,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="ice.jpg">
+        <img src="photoss/ice.jpg">
         <p>Strawberry Icecream</p>
         <p>Price: 8.00$</p>
         <button class="addButton">Add</button>
@@ -46,7 +46,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="chocolate.jpg">
+        <img src="photoss/chocolate.jpg">
         <p>Chocolate Bar</p>
         <p>Price: 12.00$</p>
         <button class="addButton">Add</button>
@@ -55,7 +55,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="cup.jpg">
+        <img src="photoss/cup.jpg">
         <p>Cupcake</p>
         <p>Price: 18.00$</p>
         <button class="addButton">Add</button>
@@ -64,7 +64,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="chocolatewaf.jpg">
+        <img src="photoss/chocolatewaf.jpg">
         <p>Chocolate Waffle</p>
         <p>Price: 25.00$</p>
         <button class="addButton">Add</button>
@@ -73,7 +73,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="carrot.jpg">
+        <img src="photoss/carrot.jpg">
         <p>Carrot Cake</p>
         <p>Price: 18.00$</p>
         <button class="addButton">Add</button>
@@ -82,7 +82,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="panc.jpg">
+        <img src="photoss/panc.jpg">
         <p>Pancake</p>
         <p>Price: 22.00$</p>
         <button class="addButton">Add</button>
@@ -91,7 +91,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="mill.jpg">
+        <img src="photoss/mill.jpg">
         <p>Mille Feuille</p>
         <p>Price: 28.00$</p>
         <button class="addButton">Add</button>
@@ -100,7 +100,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="chocolateic.jpg">
+        <img src="photoss/chocolateic.jpg">
         <p>Chocolate Icecream</p>
         <p>Price: 25 EGP</p>
         <button class="addButton">Add</button>
@@ -109,7 +109,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="tirma.jpg">
+        <img src="photoss/tirma.jpg">
         <p>Tiramisu Cake</p>
         <p>Price: 20.00$</p>
         <button class="addButton">Add</button>
@@ -118,7 +118,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="choccake.jpg">
+        <img src="photoss/choccake.jpg">
         <p>Chocolate Cake</p>
         <p>Price: 30.00$</p>
         <button class="addButton">Add</button>
@@ -127,7 +127,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="marc.jpg">
+        <img src="photoss/marc.jpg">
         <p>Macaroons</p>
         <p>Price: 23.00$</p>
         <button class="addButton">Add</button>
