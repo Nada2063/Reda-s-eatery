@@ -28,7 +28,7 @@
     <h2>Lunch Menu</h2>
     <div class="menu">
       <div class="menu-item">
-        <img src="burger.jpg">
+        <img src="photoss/burger.jpg">
         <p>Burger</p>
         <p>Price: 20.00$</p>
         <button class="addButton">Add</button>
@@ -37,7 +37,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="pasta.jpeg">
+        <img src="photoss/pasta.jpeg">
         <p>Pasta</p>
         <p>Price: 60.00$</p>
         <button class="addButton">Add</button>
@@ -46,7 +46,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="lasg.jpg">
+        <img src="photoss/lasg.jpg">
         <p>Lasagna</p>
         <p>Price: 28.00$</p>
         <button class="addButton">Add</button>
@@ -55,7 +55,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="loi.jpg">
+        <img src="photoss/loi.jpg">
         <p>Sandwich</p>
         <p>Price: 30.00$</p>
         <button class="addButton">Add</button>
@@ -64,7 +64,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="pizza.jpeg">
+        <img src="photoss/pizza.jpeg">
         <p>Pizza</p>
         <p>Price: 37.00$</p>
         <button class="addButton">Add</button>
@@ -73,7 +73,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="hotd.jpg">
+        <img src="photoss/hotd.jpg">
         <p>Hot Dog</p>
         <p>Price: 18.00$</p>
         <button class="addButton">Add</button>
@@ -82,7 +82,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="fet.jpg">
+        <img src="photoss/fet.jpg">
         <p>Fettuccine Alfredo</p>
         <p>Price: 22.00$</p>
         <button class="addButton">Add</button>
@@ -91,7 +91,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="byry.jpg">
+        <img src="photoss/byry.jpg">
         <p>Biryani</p>
         <p>Price: 32.00$</p>
         <button class="addButton">Add</button>
@@ -100,7 +100,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="chic.jpg">
+        <img src="photoss/chic.jpg">
         <p>chicken wings</p>
         <p>Price: 25.00$</p>
         <button class="addButton">Add</button>
@@ -109,7 +109,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="sushi.jpg">
+        <img src="photoss/sushi.jpg">
         <p>Sushi</p>
         <p>Price: 32.00$</p>
         <button class="addButton">Add</button>
@@ -118,7 +118,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="noodles.jpg">
+        <img src="photoss/noodles.jpg">
         <p>Noodles</p>
         <p>Price: 12.00$</p>
         <button class="addButton">Add</button>
@@ -127,7 +127,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="sandw.jpg">
+        <img src="photoss/sandw.jpg">
         <p>Sandwich</p>
         <p>Price: 32.00$</p>
         <button class="addButton">Add</button>

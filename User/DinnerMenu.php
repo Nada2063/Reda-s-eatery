@@ -28,7 +28,7 @@
     <h2>Dinner Menu</h2>
     <div class="menu">
       <div class="menu-item">
-        <img src="api.jpg">
+        <img src="photoss/api.jpg">
         <p>Appetizers</p>
         <p>Price: 20.00$</p>
         <button class="addButton">Add</button>
@@ -37,7 +37,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="Potage.jpg">
+        <img src="photoss/Potage.jpg">
         <p>Potage Creme</p>
         <p>Price: 10.00$</p>
         <button class="addButton">Add</button>
@@ -46,7 +46,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="casser salad.jpg">
+        <img src="photoss/casser salad.jpg">
         <p>Casser Salad</p>
         <p>Price: 18.00$</p>
         <button class="addButton">Add</button>
@@ -55,7 +55,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="fried mozzarella cheese sticks.jpg">
+        <img src="photoss/fried mozzarella cheese sticks.jpg">
         <p>Fried mozzarella cheese sticks</p>
         <p>Price: 15.00$</p>
         <button class="addButton">Add</button>
@@ -64,7 +64,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="pc.webp">
+        <img src="photoss/pc.webp">
         <p>Pasta Chicken</p>
         <p>Price: 25.00$</p>
         <button class="addButton">Add</button>
@@ -73,7 +73,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="chickenw.jpg">
+        <img src="photoss/chickenw.jpg">
         <p>Chicken Wings</p>
         <p>Price: 30.00$</p>
         <button class="addButton">Add</button>
@@ -82,7 +82,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="burger.jpeg">
+        <img src="photoss/burger.jpeg">
         <p>Burger</p>
         <p>Price: 25.00$</p>
         <button class="addButton">Add</button>
@@ -91,7 +91,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="pizza.jpeg">
+        <img src="photoss/pizza.jpeg">
         <p>Pizza</p>
         <p>Price: 25.00$</p>
         <button class="addButton">Add</button>
@@ -100,7 +100,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="fried chicken.jpg">
+        <img src="photoss/fried chicken.jpg">
         <p>Fried Chicken</p>
         <p>Price: 35.00$</p>
         <button class="addButton">Add</button>
@@ -109,7 +109,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="steak.jpg">
+        <img src="photoss/steak.jpg">
         <p>Steak</p>
         <p>Price: 45.00$</p>
         <button class="addButton">Add</button>
@@ -118,7 +118,7 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="Mashed Potatoes.jpg">
+        <img src="photoss/Mashed Potatoes.jpg">
         <p>Mashed Potatoes</p>
         <p>Price: 15.00$</p>
         <button class="addButton">Add</button>
