@@ -11,7 +11,7 @@
     <div class="container">
         <h1>REDA'S EATERY</h1>
 
-     <!-- menu and cancel for responsive -->
+    
         <i class="fa-solid fa-bars" id="fx" onclick="showmenu()"></i>
         <div class="navbar" id="naxx">
 
@@ -24,14 +24,14 @@
                     <i class="fa-solid fa-magnifying-glass"></i>
                   </li>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
+                <li><a href="User/menu.php">Menu</a></li>
                 <li>
                     <i class="fa-solid fa-cart-shopping" onclick="location.href = 'check_out.html';"></i>
                     <a href=""></a>
                
                 </li>
-                <li><a  class="sign" href="user_profile.html">Sign in</a></li>
-                <li><a class="sign" href="register.html">Sign up</a></li>
+                <li><a  class="sign" href="signin.php">Sign in</a></li>
+                <li><a class="sign" href="signup.php">Sign up</a></li>
             </ul>
 
         </div>
@@ -171,7 +171,7 @@
 
 
 
-<script>
+<!--<script>
 var navv=document.getElementById("naxx")
 function showmenu(){
     naxx.style.right="0"
@@ -179,7 +179,7 @@ function showmenu(){
 function hidemenu(){
     naxx.style.right="-200px"
 }
-</script>
+</script>-->
 
 eserved by &copy;conceptial 2020</p>
 </div>

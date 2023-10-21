@@ -1,36 +1,120 @@
 <!DOCTYPE html>
+<style>
+.error {color:#FF0000;}
+</style>
 <html lang="en">
-    <head>
-    <script src="https://kit.fontawesome.com/f4bd0b4361.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="signincss.css">
-</head>
-<body>
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="imgs/sweet dreams logo-01.png"type="image/icon type" />
+    <link rel="stylesheet" href="signin.css" />
+  </head>
 
-    <div class="container">
+  <body>
+  <?php
+$emailerr = $passworderr =$error="";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  // Validate email
+  if (empty($_POST["email"])) {
+    $emailerr = "Email is required";
+  } else {
+    $email = test_input($_POST["email"]);
+    // check if e-mail address is well-formed
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      $emailerr = "Invalid email format";
+    }
+  }
+
+  // Validate password
+  if (empty($_POST["password"])) {
+    $passworderr = "Password is required";
+  }
+}
 
 
-        <h1>Sign In</h1>
-        <form action='#' method='post' onsubmit='return validate(this)'>
-        <input type="text" id="idmail" placeholder="Enter Email" >
-        <div id='mail' class='err'></div>
-        <input type="password" name="email" id="idpass" placeholder="Enter Password" name="psw">
-        <div id='password' class='err'></div>
-        <button type="submit" class="registerbtn">Sign In</button> 
+
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+
+// Start session
+session_start();
+
+// Include database connection file
+require_once "includes/dbh.inc.php";
+
+// Grab data from user and see if it exists in the admins table
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $Email = $_POST["email"];
+  $Password = $_POST["password"];
+
+  if ($conn->connect_error) {
+    die("Failed to connect to database: " . $conn->connect_error);
+  }
+
+  // Check if email exists in admins table
+
+  
+    // Check if email exists in registrations table
+    $sql_reg = "SELECT * FROM users WHERE email = '$Email' AND password = '$Password'";
+    $result_reg = mysqli_query($conn, $sql_reg);
+
+    if ($row_reg = mysqli_fetch_assoc($result_reg)) {
+      // Store session variables for regular users
+      
+      $_SESSION['ID'] = $row_reg['id'];
+      $_SESSION['fullname'] = $row_reg['fullname'];
+      $_SESSION['email'] = $row_reg['email'];
+      $_SESSION['password'] = $row_reg['password'];
+      $_SESSION['phone'] = $row_reg['phone'];
+   
+
+      // Redirect to index.php
+      header("Location: home.php");
+      exit();
+    } else {
+      $error ="Invalid credentials.";
+    }
+  }
+
+?>
+
+
+<section class="container">
+    <a href="index.php"><img src="imgs/sweet dreams logo-01.png" alt="logo"></a>
+    <form method="post" class="form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+        <div class="input-box">
+            <label>Email</label>
+            <input type="text" name="email" placeholder="username@email.com" required />
+            <span class="error" style="color:red"><?php echo $emailerr;?></span>
+          
+
+            <br>
+            <span>If you don't have an account please <a href="reg.php">SignUp</a><span>
+        </div>
+
+        <div class="input-box">
+            <label>Password</label>
+            <input type="password" name="password" placeholder="Enter your password" required />
+            <span class="error"><?php echo $passworderr;?></span>
+            <span class="error"><?php echo $error;?></span>
+            <a href="#">Forget password?</a>
+        </div>
+
+        <button type="submit" name="submit" value="Submit">Submit</button>
     </form>
+</section>
+<?php 
 
-    <div class="icon">
-        <i class="fa-brands fa-facebook"></i>
-        <span>Facebook</span>
-    </div>
-        <div class="icon">
-        <i class="fa-brands fa-google"></i>
-        <span>Google</span>
-    </div>
 
- <div class="icon">
-        <i class="fa-brands fa-apple"></i>
-        <span>apple</span>
-</div>
 
-</body>
+?>
+
+  </body>
 </html>
