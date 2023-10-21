@@ -29,6 +29,10 @@
 <label>Password</label>
   <input type='text' value="<?php echo $_SESSION['password']; ?>" name='password' required/><br>
 </div>
+<div class="input-box">
+<label>Phone</label>
+  <input type='text' value="<?php echo $_SESSION['phone']; ?>" name='phone' required/><br>
+</div>
   
   <button class="button" type='submit' value='Submit' name='Submit'>Save</button>
 </form>
@@ -67,14 +71,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = $_POST['FName'];
     $email = $_POST['email'];
     $Password=$_POST['password'];
+    $Phone=$_POST['phone'];
 
     // Escape the user input.
     $name = mysqli_real_escape_string($conn, $name);
     $email = mysqli_real_escape_string($conn, $email);
     $Password = mysqli_real_escape_string($conn, $Password);
+    $Phone = mysqli_real_escape_string($conn, $Phone);
 
     // Update the user profile.
-    $sql = "UPDATE users SET fullname='$name', password='$Password', email='$email' WHERE fullname = '" . $_SESSION['fullname'] . "'";
+    $sql = "UPDATE users SET fullname='$name',phone='$Phone', password='$Password', email='$email' WHERE fullname = '" . $_SESSION['fullname'] . "'";
     $result = mysqli_query($conn, $sql);
 
     // Check if the update was successful.
@@ -83,6 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION['fullname'] = $name;
         $_SESSION['email'] = $email;
         $_SESSION['password'] = $Password;
+        $_SESSION['phone'] = $Phone;
 
         // Redirect the user to the index page.
         header('Location: index.php');

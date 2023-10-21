@@ -149,6 +149,12 @@ function test_input($data)
       <span class="error"  id="email-error"></span>
 
         </div>
+        <div class="input-box">
+            <label>Phone</label>
+            <input type="text" name="phone" id='phone' method="post" placeholder="Enter your phone number" required />
+            <span class="error"><?php echo $phoneErr;?></span>
+          </div>
+          
 
         <div class="input-box">
             <label>Password</label>
