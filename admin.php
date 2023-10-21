@@ -26,7 +26,7 @@
         <ul>
             <li onclick="change_view('uss')"> <img src="photos/profile.png" alt=""><span> Users</span></li>
             <hr>
-            <li onclick="change_view('mmn')"> <img src="photos/playlist.png" alt=""><a href='Menu.php'><span> Menu</span></li>
+            <li> <img src="photos/playlist.png" alt=""><a href='User/menu.php'><span> Menu</span> </a></li>
             <hr>
             <li onclick="change_view('ordd')"> <img src="photos/website.png" alt=""><span> Orders</span>
             </li>
@@ -40,7 +40,7 @@
             <li onclick="change_view('msg-area')"> <img src="photos/chat.png" alt=""><span> Chat requests</span>
             </li>
             <hr>
-            <li > <img src="photos/log-out.png" alt=""><a href='home.php'>Log Out</a></li>
+            <li > <img src="photos/log-out.png" alt=""><a href='index.php'><span>Log Out</span></a></li>
             <hr>
         </ul>
     </div>

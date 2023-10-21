@@ -76,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    
 
       // Redirect to index.php
-      header("Location: home.php");
+      header("Location: index.php");
       exit();
     } else {
       $error ="Invalid credentials.";
