@@ -10,7 +10,7 @@
   <div class="img">
     <img src="logo.jpg" height="50" width="50">
   </div>
-  <a href="index.php" target="_blank">Home</a>
+  <a href="home.php" target="_blank">Home</a>
   <a class="active" href="menu.php">Menu</a>
   <a href="Contactus.php" target="_blank">Contact Us</a>
   <div class="search-container">

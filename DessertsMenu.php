@@ -19,44 +19,17 @@
       <button type="submit" id="searchButton"><i class="fa fa-search"></i></button>
     </form>
   </div>
-  <div class = "name">
-    <p>Reda's Eatery </p>
-  </div>  
+  <div class="name">
+    <p>Reda's Eatery</p>
+  </div>
 </div>
 <div>
   <div class="main">
-    <h2>Drinks Menu</h2>
+    <h2>Desserts Menu</h2>
     <div class="menu">
       <div class="menu-item">
-        <img src="photoss/kk.jpg">
-        <p>Green Tea</p>
-        <p>Price: 5.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photoss/uu.jpg">
-        <p>Red Tea</p>
-        <p>Price: 8.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photoss/c.jpg">
-        <p>Latte</p>
-        <p>Price: 20.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photoss/b.jpg">
-        <p>Hot Chocolate</p>
+        <img src="photos/red.jpg">
+        <p>Red velvet cake</p>
         <p>Price: 15.00$</p>
         <button class="addButton">Add</button>
         <button class="orderButton">Order</button>
@@ -64,17 +37,26 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="photoss/a.jpg">
-        <p>Caramel Milkshake</p>
-        <p>Price: 10.00$</p>
+        <img src="photos/ice.jpg">
+        <p>Strawberry Icecream</p>
+        <p>Price: 8.00$</p>
         <button class="addButton">Add</button>
         <button class="orderButton">Order</button>
         <button class="deleteButton">Delete</button>
       </div>
       <hr>
       <div class="menu-item">
-        <img src="photoss/as.jpg">
-        <p>Chocolate Milkshake</p>
+        <img src="photos/chocolate.jpg">
+        <p>Chocolate Bar</p>
+        <p>Price: 12.00$</p>
+        <button class="addButton">Add</button>
+        <button class="orderButton">Order</button>
+        <button class="deleteButton">Delete</button>
+      </div>
+      <hr>
+      <div class="menu-item">
+        <img src="photos/cup.jpg">
+        <p>Cupcake</p>
         <p>Price: 18.00$</p>
         <button class="addButton">Add</button>
         <button class="orderButton">Order</button>
@@ -82,26 +64,8 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="photoss/ll.jpg">
-        <p>Vanilla Milkshake</p>
-        <p>Price: 8.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photoss/dd.jpg">
-        <p>Strawberry Milkshake</p>
-        <p>Price: 32.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photoss/o.jpg">
-        <p>RedBull</p>
+        <img src="photos/chocolatewaf.jpg">
+        <p>Chocolate Waffle</p>
         <p>Price: 25.00$</p>
         <button class="addButton">Add</button>
         <button class="orderButton">Order</button>
@@ -109,26 +73,62 @@
       </div>
       <hr>
       <div class="menu-item">
-        <img src="photoss/q.png">
-        <p>Pepsi</p>
-        <p>Price: 10.00$</p>
+        <img src="photos/carrot.jpg">
+        <p>Carrot Cake</p>
+        <p>Price: 18.00$</p>
         <button class="addButton">Add</button>
         <button class="orderButton">Order</button>
         <button class="deleteButton">Delete</button>
       </div>
       <hr>
       <div class="menu-item">
-        <img src="photoss/g.jpg">
-        <p>Sprite</p>
-        <p>Price: 8.00$</p>
+        <img src="photos/panc.jpg">
+        <p>Pancake</p>
+        <p>Price: 22.00$</p>
         <button class="addButton">Add</button>
         <button class="orderButton">Order</button>
         <button class="deleteButton">Delete</button>
       </div>
       <hr>
       <div class="menu-item">
-        <img src="photoss/d.jpg">
-        <p>Fanta Orange</p>
+        <img src="photos/mill.jpg">
+        <p>Mille Feuille</p>
+        <p>Price: 28.00$</p>
+        <button class="addButton">Add</button>
+        <button class="orderButton">Order</button>
+        <button class="deleteButton">Delete</button>
+      </div>
+      <hr>
+      <div class="menu-item">
+        <img src="photos/chocolateic.jpg">
+        <p>Chocolate Icecream</p>
+        <p>Price: 25 EGP</p>
+        <button class="addButton">Add</button>
+        <button class="orderButton">Order</button>
+        <button class="deleteButton">Delete</button>
+      </div>
+      <hr>
+      <div class="menu-item">
+        <img src="photos/tirma.jpg">
+        <p>Tiramisu Cake</p>
+        <p>Price: 20.00$</p>
+        <button class="addButton">Add</button>
+        <button class="orderButton">Order</button>
+        <button class="deleteButton">Delete</button>
+      </div>
+      <hr>
+      <div class="menu-item">
+        <img src="photos/choccake.jpg">
+        <p>Chocolate Cake</p>
+        <p>Price: 30.00$</p>
+        <button class="addButton">Add</button>
+        <button class="orderButton">Order</button>
+        <button class="deleteButton">Delete</button>
+      </div>
+      <hr>
+      <div class="menu-item">
+        <img src="photos/marc.jpg">
+        <p>Macaroons</p>
         <p>Price: 23.00$</p>
         <button class="addButton">Add</button>
         <button class="orderButton">Order</button>
