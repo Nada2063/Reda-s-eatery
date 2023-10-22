@@ -2,13 +2,13 @@
 <html>
 <head>
   <title>Reda's Eatery</title>
-  <link rel="stylesheet" href="Menu.css">
+  <link rel="stylesheet" href="Css/Menu.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <div class="topnav">
   <div class="img">
-  <img src="logo.jpg" height="50" width="50">
+  <img src="photos/logo.jpg" height="50" width="50">
   </div>
   <a href="home.php" target="_blank">Home</a>
   <a class="active" href="menu.php">Menu</a>
@@ -141,6 +141,6 @@
 <div class="footer">
   <p>© <?php echo date("Y"); ?> Meal Makers. All Rights Reserved.</p>
 </div>
-<script src="script.js"></script>
+<script src="JavaScript/script.js"></script>
 </body>
 </html>
