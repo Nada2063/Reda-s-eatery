@@ -58,16 +58,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     die("Failed to connect to database: " . $conn->connect_error);
   }
 
-  // Check if email exists in admins table
+ 
+     // Check if email exists in admins table
+  $sql_admin = "SELECT * FROM admin WHERE email = '$Email' AND password = '$Password'";
+  $result_admin = mysqli_query($conn, $sql_admin);
 
-  
+  if ($row_admin = mysqli_fetch_assoc($result_admin)) {
+    $_SESSION['admin']=true;
+    $_SESSION['ID'] = $row_reg['id'];
+    $_SESSION['fullname'] = $row_reg['fullname'];
+    $_SESSION['email'] = $row_reg['email'];
+    $_SESSION['password'] = $row_reg['password'];
+    $_SESSION['phone'] = $row_reg['phone'];
+
+    // Redirect to admin dashboard
+    header("Location: admin.php");
+    exit();
+  } else {
     // Check if email exists in registrations table
     $sql_reg = "SELECT * FROM users WHERE email = '$Email' AND password = '$Password'";
     $result_reg = mysqli_query($conn, $sql_reg);
 
     if ($row_reg = mysqli_fetch_assoc($result_reg)) {
       // Store session variables for regular users
-      
+      $_SESSION['admin']=false;
       $_SESSION['ID'] = $row_reg['id'];
       $_SESSION['fullname'] = $row_reg['fullname'];
       $_SESSION['email'] = $row_reg['email'];
@@ -81,6 +95,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
       $error ="Invalid credentials.";
     }
+  }
   }
 
 ?>

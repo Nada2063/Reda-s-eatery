@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,23 +26,25 @@
     <!--side panel-->
     <div id="side_panel">
         <ul>
+            <li ><img src="photos/add.png" alt=""><a class="links" href="addadmin.php">Add Admin</a>  </li>
+            <hr>
             <li onclick="change_view('uss')"> <img src="photos/profile.png" alt=""><span> Users</span></li>
             <hr>
-            <li> <img src="photos/playlist.png" alt=""><a href='User/menu.php'><span> Menu</span> </a></li>
+            <li> <img src="photos/playlist.png" alt=""><a class="links" href="menu.php">Menu</a> </li>
             <hr>
             <li onclick="change_view('ordd')"> <img src="photos/website.png" alt=""><span> Orders</span>
             </li>
             <hr>
             <li onclick="change_view('custt')"> <img src="photos/customer.png" alt=""><span> Customers</span></li>
             <hr>
-            <li > <img src="photos/user.png" alt=""><span> Your Account</span></li>
+            <li > <img src="photos/user.png" alt=""><a class="links" href="adminprofile.php">MY Account</a></li>
             <hr>
             <li onclick="change_view('stt')"> <img src="photos/analytics.png" alt=""><span> Statistics</span></li>
             <hr>
             <li onclick="change_view('msg-area')"> <img src="photos/chat.png" alt=""><span> Chat requests</span>
             </li>
             <hr>
-            <li > <img src="photos/log-out.png" alt=""><a href='index.php'><span>Log Out</span></a></li>
+            <li > <img src="photos/log-out.png" alt=""><a class="links" href="index.php">Log Out</a> </li>
             <hr>
         </ul>
     </div>
@@ -599,6 +603,11 @@
 
         
     </div>
+    <?php
+    // Access session variables
+    echo "fullname: " . $_SESSION['fullname'] . "<br>";
+    echo "email: " . $_SESSION['email'];
+    ?>
                    
 
 </body>

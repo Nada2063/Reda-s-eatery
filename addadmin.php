@@ -8,11 +8,11 @@
 </style>
 <html lang="en">
   <head>
-    <title>Sing Up</title>
+    <title>Add Admin</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="Css/signup.css" />
+    <link rel="stylesheet" href="Css/addadmin.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
       $(document).ready(function() {
@@ -102,7 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   
 
         // Insert data into the database
-        $sql = "INSERT INTO users(fullname,email,password,phone) 
+        $sql = "INSERT INTO admin(fullname,email,password,phone) 
                 VALUES ('$Fname','$Email','$Password','$phone')";
         $result = mysqli_query($conn, $sql);
 
@@ -125,11 +125,6 @@ function test_input($data)
     $data = htmlspecialchars($data);
     return $data;
 }
-
-
-
-
-    
     ?>
     
     <section class="container">
@@ -150,9 +145,10 @@ function test_input($data)
         </div>
         <div class="input-box">
             <label>Phone</label>
-            <input type="text" name="phone" placeholder="Phone Number" required />
+            <input type="text" name="phone" id='phone' method="post" placeholder="Enter your phone number" required />
             <span class="error"><?php echo $phoneErr;?></span>
-        </div>
+          </div>
+          
 
         <div class="input-box">
             <label>Password</label>

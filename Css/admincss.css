@@ -66,6 +66,14 @@ transition: 1s;
     bottom: 0;
 font-size: 90%;
 }
+.links
+{
+    color: black;
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+font-size: 90%;
+}
 #side_panel li:hover{
 cursor: pointer;
 color: white;
