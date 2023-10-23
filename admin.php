@@ -26,11 +26,13 @@
     <!--side panel-->
     <div id="side_panel">
         <ul>
-            <li ><img src="photos/add.png" alt=""><a class="links" href="addadmin.php">Add Admin</a>  </li>
+            <li ><img src="photos/add.png" alt=""><a class="links" href="addadmin.php">Add Admin</a></li>
             <hr>
-            <li onclick="change_view('uss')"> <img src="photos/profile.png" alt=""><span> Users</span></li>
+            <li ><img src="photos/add.png" alt=""><a class="links" href="addProduct.php">Add Product</a></li>
             <hr>
-            <li> <img src="photos/playlist.png" alt=""><a class="links" href="menu.php">Menu</a> </li>
+            <li > <img src="photos/profile.png" alt=""><a class="links" href="allUsers.php">Users</a></li>
+            <hr>
+            <li> <img src="photos/playlist.png" alt=""><a class="links" href="products.php">Menu</a> </li>
             <hr>
             <li onclick="change_view('ordd')"> <img src="photos/website.png" alt=""><span> Orders</span>
             </li>
@@ -603,11 +605,7 @@
 
         
     </div>
-    <?php
-    // Access session variables
-    echo "fullname: " . $_SESSION['fullname'] . "<br>";
-    echo "email: " . $_SESSION['email'];
-    ?>
+
                    
 
 </body>
