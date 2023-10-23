@@ -21,126 +21,44 @@
   </div>
   <div class="name">
     <p>Reda's Eatery</p>
-  </div>
 </div>
+</div>
+<?php
+    $sql = "SELECT * FROM products WHERE category='desserts'";
+    include_once "includes/dbh.inc.php";
+    $result = mysqli_query($conn, $sql);
+    ?>
 <div>
   <div class="main">
     <h2>Desserts Menu</h2>
+    <?php
+            // Loop through the products and display them dynamically
+            while ($row = mysqli_fetch_assoc($result)) {
+              $id = $row["ID"];
+              $title = $row["title"];
+              $price = $row["price"];
+              $description = $row["description"];
+              $prod_image = $row["prod_image"];
+              $category = $row["category"];
+            ?>
     <div class="menu">
       <div class="menu-item">
-        <img src="photos/red.jpg">
-        <p>Red velvet cake</p>
-        <p>Price: 15.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/ice.jpg">
-        <p>Strawberry Icecream</p>
-        <p>Price: 8.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/chocolate.jpg">
-        <p>Chocolate Bar</p>
-        <p>Price: 12.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/cup.jpg">
-        <p>Cupcake</p>
-        <p>Price: 18.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/chocolatewaf.jpg">
-        <p>Chocolate Waffle</p>
-        <p>Price: 25.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/carrot.jpg">
-        <p>Carrot Cake</p>
-        <p>Price: 18.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/panc.jpg">
-        <p>Pancake</p>
-        <p>Price: 22.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/mill.jpg">
-        <p>Mille Feuille</p>
-        <p>Price: 28.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/chocolateic.jpg">
-        <p>Chocolate Icecream</p>
-        <p>Price: 25 EGP</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/tirma.jpg">
-        <p>Tiramisu Cake</p>
-        <p>Price: 20.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/choccake.jpg">
-        <p>Chocolate Cake</p>
-        <p>Price: 30.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/marc.jpg">
-        <p>Macaroons</p>
-        <p>Price: 23.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-    </div>
-  </div>
-</div>
-<div class="footer">
-  <p>© <?php echo date("Y"); ?> Meal Makers. All Rights Reserved.</p>
-</div>
+      <img src="<?php echo $prod_image; ?>">
+<div class="design">
+    <h5><?php echo $title; ?></h5>
+    <h6><?php echo $description; ?></h6>
+    <h6><?php echo $price; ?></h6>
+    <!--<form method="post" action="cart.php">
+    <input type="hidden" name="product_id" value="<?php echo $row['id']; ?>">
+    <button type="submit" class="btn" name="add_to_cart"><i class="fa fa-shopping-bag"></i></button>-->
+    
+</form>
+   </div>
+       </div>
+         <?php
+         }
+         ?>
+         </div>
 <script src="JavaScript/script.js"></script>
 </body>
 </html>

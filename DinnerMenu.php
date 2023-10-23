@@ -23,115 +23,44 @@
     <p>Reda's Eatery </p>
   </div>  
 </div>
+<?php
+    $sql = "SELECT * FROM products WHERE category='dinner'";
+    include_once "includes/dbh.inc.php";
+    $result = mysqli_query($conn, $sql);
+    ?>
 <div>
   <div class="main">
     <h2>Dinner Menu</h2>
+    <?php
+            // Loop through the products and display them dynamically
+            while ($row = mysqli_fetch_assoc($result)) {
+              $id = $row["ID"];
+              $title = $row["title"];
+              $price = $row["price"];
+              $description = $row["description"];
+              $prod_image = $row["prod_image"];
+              $category = $row["category"];
+            ?>
     <div class="menu">
       <div class="menu-item">
-        <img src="photos/api.jpg">
-        <p>Appetizers</p>
-        <p>Price: 20.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/Potage.jpg">
-        <p>Potage Creme</p>
-        <p>Price: 10.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/casser salad.jpg">
-        <p>Casser Salad</p>
-        <p>Price: 18.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/fried mozzarella cheese sticks.jpg">
-        <p>Fried mozzarella cheese sticks</p>
-        <p>Price: 15.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/pc.webp">
-        <p>Pasta Chicken</p>
-        <p>Price: 25.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/chickenw.jpg">
-        <p>Chicken Wings</p>
-        <p>Price: 30.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/burger.jpeg">
-        <p>Burger</p>
-        <p>Price: 25.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/pizza.jpeg">
-        <p>Pizza</p>
-        <p>Price: 25.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/fried chicken.jpg">
-        <p>Fried Chicken</p>
-        <p>Price: 35.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/steak.jpg">
-        <p>Steak</p>
-        <p>Price: 45.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-      <div class="menu-item">
-        <img src="photos/Mashed Potatoes.jpg">
-        <p>Mashed Potatoes</p>
-        <p>Price: 15.00$</p>
-        <button class="addButton">Add</button>
-        <button class="orderButton">Order</button>
-        <button class="deleteButton">Delete</button>
-      </div>
-      <hr>
-    </div>
-  </div>
-</div>
-<div class="footer">
-  <p>© <?php echo date("Y"); ?> Meal Makers. All Rights Reserved.</p>
-</div>
+
+      <img src="<?php echo $prod_image; ?>">
+<div class="design">
+    <h5><?php echo $title; ?></h5>
+    <h6><?php echo $description; ?></h6>
+    <h6><?php echo $price; ?></h6>
+    <!--<form method="post" action="cart.php">
+    <input type="hidden" name="product_id" value="<?php echo $row['id']; ?>">
+    <button type="submit" class="btn" name="add_to_cart"><i class="fa fa-shopping-bag"></i></button>-->
+    
+</form>
+   </div>
+       </div>
+         <?php
+         }
+         ?>
+         </div>
+       
 <script src="JavaScript/script.js"></script>
 </body>
 </html>

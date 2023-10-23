@@ -23,8 +23,7 @@
                     <input class="search" type="text" placeholder="Search Food">
                     <i class="fa-solid fa-magnifying-glass"></i>
                   </li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="User/menu.php">Menu</a></li>
+                <li><a href="menu.php">Menu</a></li>
                 <li>
                     <i class="fa-solid fa-cart-shopping" onclick="location.href = 'check_out.html';"></i>
                     <a href=""></a>
