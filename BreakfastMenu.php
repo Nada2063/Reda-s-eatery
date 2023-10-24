@@ -48,10 +48,10 @@
     <h5><?php echo $title; ?></h5>
     <h6><?php echo $description; ?></h6>
     <h6><?php echo $price; ?></h6>
-    <!--<form method="post" action="cart.php">
+    <form method="post" action="cart.php">
     <input type="hidden" name="product_id" value="<?php echo $row['id']; ?>">
-    <button type="submit" class="btn" name="add_to_cart"><i class="fa fa-shopping-bag"></i></button>-->
-    
+    <button type="submit" class="btn" name="add_to_cart"><i class="fa fa-shopping-bag"></i></button>
+    
 </form>
    </div>
        </div>
@@ -62,3 +62,4 @@
 <script src="JavaScript/script.js"></script>
 </body>
 </html>
+

@@ -43,7 +43,7 @@
 
     // Add the product ID and attributes to the cart array
     $_SESSION['cart'][] = array(
-        'id' => $product_id,
+        'ID' => $product_id,
         'title' => $row['title'],
         'description' => $row['description'],
         'price' => $row['price'],
