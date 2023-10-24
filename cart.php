@@ -1,4 +1,4 @@
-php:<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -92,12 +92,6 @@ php:<!DOCTYPE html>
     ?>
      
   </table>
-
-
-        
-
-<?php include 'partials/footer.php'; ?>
-
 
 </body>
 
