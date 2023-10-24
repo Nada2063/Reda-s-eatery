@@ -5,12 +5,12 @@ body, h1, h2, h3, p, ul, li, button {
 }
 
 body {
-    font-family: 'Georgia', serif; /* A more elegant font choice */
-    background-color: #e7fde7; /* A light beige for a warm and clean look */
+    font-family: 'Times New Roman', serif; /* A classic and elegant font choice */
+    background-color: #F6F6F6; /* A neutral and calming light gray background */
 }
 
 .topnav {
-    background-color: #985C00; /* A rich brown for a cozy feel */
+    background-color: #FF6347; /* A vibrant red color */
     color: #FFF;
     display: flex;
     justify-content: space-between;
@@ -25,20 +25,20 @@ body {
 }
 
 .topnav a.active {
-    background-color: #D9534F; /* A warm red tone for highlighting */
+    background-color: #FF4838; /* A darker shade of red for highlighting */
 }
 
 .topnav a:hover {
-    background-color: #D9534F;
+    background-color: #FF4838;
 }
 
 .search-container input[type="text"] {
     padding: 5px;
-    border: 1px solid #985C00; /* Matching brown border */
+    border: 1px solid #FF6347; /* Matching the topnav background color */
 }
 
 #searchButton {
-    background-color: #D9534F;
+    background-color: #FF4838;
     color: #FFF;
     border: none;
     padding: 5px 10px;
@@ -49,7 +49,7 @@ body {
     background-color: #FFF;
     margin: 20px;
     padding: 20px;
-    border: 1px solid #985C00;
+    border: 1px solid #FF6347;
 }
 
 h2 {
@@ -57,7 +57,7 @@ h2 {
 }
 
 .button {
-    background-color: #D9534F;
+    background-color: #FF6347; /* Matching the topnav background color */
     color: #FFF;
     margin: 20px;
     padding: 5px 10px;
@@ -68,11 +68,11 @@ h2 {
 }
 
 .button:hover {
-    background-color: #985C00; /* Hover effect with brown background */
+    background-color: #FF4838;
 }
 
 .category-button {
-    background-color: #D9534F;
+    background-color: #FF4838; /* A darker shade of red for a pleasing look */
     color: #FFF;
     padding: 10px;
     cursor: pointer;
@@ -83,11 +83,11 @@ h2 {
 }
 
 .category-button:hover {
-    background-color: #985C00;
+    background-color: #FF6347;
 }
 
 button {
-    background-color: #D9534F;
+    background-color: #FF4838; /* Matching the topnav and button color */
     color: #FFF;
     border: none;
     padding: 5px 10px;
@@ -95,11 +95,11 @@ button {
 }
 
 button:hover {
-    background-color: #985C00;
+    background-color: #FF6347;
 }
 
 .footer {
-    background-color: #333; /* Dark gray for contrast with light background */
+    background-color: #736f6f; /* Dark gray for contrast with light background */
     color: #FFF;
     text-align: center;
     padding: 10px;
