@@ -33,8 +33,6 @@
 
   <body>
   <?php
-
-
 // Define variables to hold error messages
 $nameErr = $emailErr = $passwordErr = $confirmErr = $phoneErr = "";
 

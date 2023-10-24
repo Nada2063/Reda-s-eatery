@@ -13,9 +13,10 @@
   </head> 
 
   <body>
+    <!--side panel-->
+
   <div class="component">
    
-
       <div class="content">
       <div id="header"><h2>All Users</h2></div>
         <div class="tablecont">
