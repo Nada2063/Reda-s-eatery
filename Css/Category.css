@@ -1,18 +1,17 @@
 body, h1, h2, h3, p, ul, li, button {
     margin: 0;
     padding: 0;
-    color: #ffffff;
+    color: #333; /* Dark text color for readability */
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #000000; 
+    font-family: 'Georgia', serif; /* A more elegant font choice */
+    background-color: #e7fde7; /* A light beige for a warm and clean look */
 }
 
-
 .topnav {
-    background-color: rgb(148, 81, 81);
-    color: #ffffff;
+    background-color: #985C00; /* A rich brown for a cozy feel */
+    color: #FFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,71 +19,61 @@ body {
 }
 
 .topnav a {
-    color: #ffffff;
+    color: #FFF;
     text-decoration: none;
     padding: 10px 15px;
 }
 
 .topnav a.active {
-    background-color: orangered;
+    background-color: #D9534F; /* A warm red tone for highlighting */
 }
 
 .topnav a:hover {
-    background-color: orangered;
-}
-
-
-.search-container {
-    display: flex;
-    align-items: center;
+    background-color: #D9534F;
 }
 
 .search-container input[type="text"] {
     padding: 5px;
-    border: 1px solid orangered;
+    border: 1px solid #985C00; /* Matching brown border */
 }
 
 #searchButton {
-    background-color: orangered; 
-    color: #ffffff;
+    background-color: #D9534F;
+    color: #FFF;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
 }
 
 .main {
-    background-color: #000000;
+    background-color: #FFF;
     margin: 20px;
     padding: 20px;
-    border: 1px solid orangered;
-}
-
-.name {
-    text-align: right;
-    padding-right: 20px;
+    border: 1px solid #985C00;
 }
 
 h2 {
     text-align: center;
 }
 
-.button{
-    color: #000000;
+.button {
+    background-color: #D9534F;
+    color: #FFF;
     margin: 20px;
-    fill: #000000;
+    padding: 5px 10px;
     text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.button:hover{
-    color: #000000;
-    margin: 20px;
-    fill: #000000;
+.button:hover {
+    background-color: #985C00; /* Hover effect with brown background */
 }
-
 
 .category-button {
-    background-color: orangered;
-    color: #ffffff;
+    background-color: #D9534F;
+    color: #FFF;
     padding: 10px;
     cursor: pointer;
     border-radius: 5px;
@@ -94,24 +83,24 @@ h2 {
 }
 
 .category-button:hover {
-    background-color: orangered;
+    background-color: #985C00;
 }
 
 button {
-    background-color: orangered;
-    color: #ffffff;
+    background-color: #D9534F;
+    color: #FFF;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #ffffff;
+    background-color: #985C00;
 }
 
 .footer {
-    background-color: #000000; 
-    color: #ffffff;
+    background-color: #333; /* Dark gray for contrast with light background */
+    color: #FFF;
     text-align: center;
     padding: 10px;
 }
