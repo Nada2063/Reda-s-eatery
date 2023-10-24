@@ -10,7 +10,7 @@ body {
 }
 
 .topnav {
-    background-color: #FF6347; /* A vibrant red color */
+    background-color: #3B7E86; /* A soothing teal for a calming atmosphere */
     color: #FFF;
     display: flex;
     justify-content: space-between;
@@ -25,20 +25,20 @@ body {
 }
 
 .topnav a.active {
-    background-color: #FF4838; /* A darker shade of red for highlighting */
+    background-color: #2E6B78; /* A slightly darker teal for highlighting */
 }
 
 .topnav a:hover {
-    background-color: #FF4838;
+    background-color: #2E6B78;
 }
 
 .search-container input[type="text"] {
     padding: 5px;
-    border: 1px solid #FF6347; /* Matching the topnav background color */
+    border: 1px solid #3B7E86; /* Matching the topnav background color */
 }
 
 #searchButton {
-    background-color: #FF4838;
+    background-color: #2E6B78;
     color: #FFF;
     border: none;
     padding: 5px 10px;
@@ -49,7 +49,7 @@ body {
     background-color: #FFF;
     margin: 20px;
     padding: 20px;
-    border: 1px solid #FF6347;
+    border: 1px solid #3B7E86;
 }
 
 h2 {
@@ -57,7 +57,7 @@ h2 {
 }
 
 .button {
-    background-color: #FF6347; /* Matching the topnav background color */
+    background-color: #3B7E86; /* Matching the topnav background color */
     color: #FFF;
     margin: 20px;
     padding: 5px 10px;
@@ -68,11 +68,11 @@ h2 {
 }
 
 .button:hover {
-    background-color: #FF4838;
+    background-color: #2E6B78;
 }
 
 .category-button {
-    background-color: #FF4838; /* A darker shade of red for a pleasing look */
+    background-color: #2E6B78; /* A slightly darker teal for a pleasing look */
     color: #FFF;
     padding: 10px;
     cursor: pointer;
@@ -83,11 +83,11 @@ h2 {
 }
 
 .category-button:hover {
-    background-color: #FF6347;
+    background-color: #3B7E86;
 }
 
 button {
-    background-color: #FF4838; /* Matching the topnav and button color */
+    background-color: #2E6B78; /* Matching the topnav and button color */
     color: #FFF;
     border: none;
     padding: 5px 10px;
@@ -95,7 +95,7 @@ button {
 }
 
 button:hover {
-    background-color: #FF6347;
+    background-color: #3B7E86;
 }
 
 .footer {
@@ -106,5 +106,5 @@ button:hover {
 }
 
 .footer p {
-    margin: 0;
+    margin: 0;
 }
