@@ -27,20 +27,6 @@ php:<!DOCTYPE html>
 
 <body>
 
-<nav> 
-  <!-- <div class="wrap">
-      <div class="search">
-        <input type="text" class="searchTerm" placeholder="What are you looking for?">
-        <button type="submit" class="searchButton">
-          <i class="fa fa-search"></i>
-        </button>
-      </div>
-    </div> -->
-<?php include 'partials/nav.php'; ?>
-
-   
-    <?php include 'partials/side.php'; ?>
-  </nav>
   <?php
   if (isset($_POST['add_to_cart'])) {
     $product_id = $_POST['product_id'];
