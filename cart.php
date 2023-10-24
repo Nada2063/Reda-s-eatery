@@ -9,7 +9,7 @@ php:<!DOCTYPE html>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
     <link rel="icon" href="imgs/sweet dreams logo-01.png" type="image/icon type" />
-    <link rel="stylesheet" href="cart.css" />
+    <link rel="stylesheet" href="Css/cart.css" />
 </head>
 
 <style>
