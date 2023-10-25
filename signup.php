@@ -133,7 +133,7 @@ function test_input($data)
     ?>
     
     <section class="container">
-    <a href="index.php"><img src="imgs/sweet dreams logo-01.png" alt="logo" ></a>
+    <a href="index.php"><img src="photos/lo.jpg" alt="logo" ></a>
       <form method="post" class="form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
         <div class="input-box">
           <label>Full Name</label>
