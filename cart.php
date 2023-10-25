@@ -34,7 +34,6 @@
 
     // Retrieve the product attributes from the database based on the product ID
     $sql = "SELECT * FROM products WHERE ID = $product_id";
-    echo $sql;
     $result = mysqli_query($conn, $sql);
     $row = mysqli_fetch_assoc($result);
 

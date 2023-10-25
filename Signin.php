@@ -111,7 +111,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           
 
             <br>
-            <span>If you don't have an account please <a href="reg.php">SignUp</a><span>
+            <span>If you don't have an account please <a href="signup.php">SignUp</a><span>
         </div>
 
         <div class="input-box">

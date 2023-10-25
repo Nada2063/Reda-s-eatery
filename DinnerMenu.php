@@ -50,9 +50,8 @@
     <h6><?php echo $description; ?></h6>
     <h6><?php echo $price; ?></h6>
     <form method="post" action="cart.php">
-    <input type="hidden" name="product_id" value="<?php echo $row['id']; ?>">
-    <button type="submit" class="btn" name="add_to_cart"><i class="fa fa-shopping-bag"></i></button>
-    
+    <input type="hidden" name="product_id" value="<?= $row['ID']?>">
+    <button type="submit" class="addButton" name="add_to_cart">Add to Cart</button>
 </form>
    </div>
        </div>

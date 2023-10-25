@@ -25,7 +25,7 @@
                   </li>
                 <li><a href="menu.php">Menu</a></li>
                 <li>
-                    <i class="fa-solid fa-cart-shopping" onclick="location.href = 'check_out.html';"></i>
+                    <i class="fa-solid fa-cart-shopping" onclick="location.href = 'cart.php';"></i>
                     <a href=""></a>
                
                 </li>
@@ -42,7 +42,7 @@
     <div class="content">
         <h3>Welcome To Reda's eatery</h3>
         <h1>Returant & Cafe</h1>
-      <button onclick="location.href = 'index.html';">Pick your table</button>
+      <button onclick="location.href = 'menu.php';">Place Your Order</button>
     </div>
 
    <section class="alifood">
