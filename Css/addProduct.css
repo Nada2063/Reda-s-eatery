@@ -6,9 +6,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  background-color: #E8E0D7;
-}
+
 
 
 
@@ -169,4 +167,8 @@ input::file-selector-button{
   #title label{
     font-size: 10px;
   }
+}
+
+body {
+  background-color: red;
 }
