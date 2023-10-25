@@ -42,31 +42,11 @@
     <div class="content">
         <h3>Welcome To Reda's eatery</h3>
         <h1>Returant & Cafe</h1>
-      <button onclick="location.href = 'menu.php';">Place Your Order</button>
+      <button onclick="location.href = 'signin.php';">Place Your Order</button>
     </div>
 
    <section class="alifood">
-        <h1>How it Works</h1>
-       <div class="row">
-        <div class="foodcol">
-            <h1>1</h1>
-            <h3>You place your order</h3><br>
-            <p>You choose your order type and area to see all the kitchens that operate in that area and their menus and place your order with only three total clicks.</p>
-        </div>
-
-        <div class="foodcol">
-            <h1>2</h1>
-            <h3>Homechef starts cooking</h3><br>
-            <p> Mumms’ homechefs receive your order instantly and start cooking you delicious meals, all prepared in their pre-approved kitchens. All the kitchens go through a serious process of hygiene and safety checks</p>
-        </div>
-
-        <div class="foodcol">
-            <h1>3</h1>
-            <h3>Order delivery</h3><br>
-            <p>One of Mumm’s delivery guys will pick up your order from the homechef’s kitchen and deliver it to your doorstep</p>
-        </div>
-
-        
+        <h1>The fondest memories are made when gathered around the table </h1>
 
        </div>
    </section>
@@ -79,21 +59,21 @@
         <div class="foodcol2">
             <img src="photos/veget.jpg" alt="">
             <div class="layer"><h3>
-                Single Dishes
+                Main dishes 
             </h3></div>
         </div>
 
         <div class="foodcol2">
             <img src="photos/zzz.jpeg" alt="">
             <div class="layer"><h3>
-                Frozen Dishes
+                Side Dishes
             </h3></div>
         </div>
 
-        <div class="foodcol2">
-            <img src="photos/ooo.jpg" alt="">
+       <div class="foodcol2">
+            <img src="photos/wl.jpg" alt="">
             <div class="layer"><h3>
-                Family Dishes
+                Drinks 
             </h3></div>
         </div>
     </div>
@@ -103,34 +83,7 @@
 
 
 
-   <section class="problems">
-    <h1>Problems we Solve</h1>
-    <p>Mumm is an online platform connecting talented homebased cooks with hungry professionals to give them access to wholesome fresh homemade food, from the homechef’s kitchen.</p>
-
-<div class="row">
-    <div class="foodcol3">
-        <img src="photos/ex1.jpeg" alt="">
-        <h3>Is eating healthy really more expensive?</h3>
-        <p>It's a common belief that eating healthy is too expensive. In 2013, the Harvard School of Public Health analyzed 27 studies and found that it cost an average of $1.50 more per day to eat healthy. </p>
-    </div>
-
-    <div class="foodcol3">
-        <img src="photos/ppp.jpeg" alt="">
-        <h3>It takes too much time to prepare homemade food?</h3>
-        <p>It's a common belief that eating healthy is too expensive. In 2013, the Harvard School of Public Health analyzed 27 studies and found that it cost an average of $1.50 more per day to eat healthy. </p>
-    </div>
-
-
-
-    <div class="foodcol3">
-        <img src="photos/aaa3.jpeg" alt="">
-        <h3>Junk food is really not healthy?</h3>
-        <p>It's a common belief that eating healthy is too expensive. In 2013, the Harvard School of Public Health analyzed 27 studies and found that it cost an average of $1.50 more per day to eat healthy. </p>
-    </div>
-
-
-</div>
-</section>
+  
 
 
 <section class="rates">
@@ -144,7 +97,7 @@
                 <p>
                     ting talented homebased cooks with hungry professting talented homebased cooks with hungry professting talented homebased cooks with hungry professting talented homebased cooks with hungry professting talented homebased cooks with hungry profess
                 </p>
-                <h3>Eslam Ahmed</h3>
+                <h3> Ahmed</h3>
             </div>
         </div>
 
@@ -155,7 +108,7 @@
                 <p>
                     ting talented homebased cooks with hungry professting talented homebased cooks with hungry professting talented homebased cooks with hungry professting talented homebased cooks with hungry professting talented homebased cooks with hungry profess
                 </p>
-                <h3>Saher Amr</h3>
+                <h3> Amr</h3>
             </div>
         </div>
 
@@ -190,7 +143,7 @@ eserved by &copy;conceptial 2020</p>
       <div class="left box">
         <h2 style="color: white;">About us</h2>
         <div class="content">
-          <p>Reda's eatery ia a resturant which services diffrent  kinds of food and provide a good vibe for customesrs</p>
+          <p>Reda’s Eatery an Egyptian food restaurant that serves food and drinks to customers. Paying tribute to serving up Egyptian sumptuous food . Oriental and fast food has been served too.</p>
           <div class="social">
             <a href="https://www.facebook.com/RedaEatery"><span class="fab fa-facebook-f"></span></a>
             <a href="#"><span class="fab fa-twitter"></span></a>
@@ -237,7 +190,6 @@ eserved by &copy;conceptial 2020</p>
     <div class="bottom">
      
       
-        <span style="text-align: center;" class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
       
     </div>
   </footer>
