@@ -32,7 +32,7 @@
     $extensions = array('jpg', 'jpeg', 'png'); //extensions 
 
     if(in_array($file_extension,$extensions)){
-      $upload_image='uploads/'.$image_filename; //save image inside uploads folder
+      $upload_image='photos/'.$image_filename; //save image inside uploads folder
       move_uploaded_file($image_filetemp,$upload_image);
 
       $sql="INSERT INTO products (title,price,description,prod_image,category)

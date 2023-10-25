@@ -78,8 +78,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = mysqli_real_escape_string($conn, $email);
     $Password = mysqli_real_escape_string($conn, $Password);
     $Phone = mysqli_real_escape_string($conn, $Phone);
+    
     // Update the user profile.
-    $sql = "UPDATE users SET fullname='$name',phone='$Phone', password='$Password', email='$email' WHERE fullname = '" . $_SESSION['fullname'] . "'";
+    $sql = "UPDATE admin SET fullname='$name',phone='$Phone', password='$Password', email='$email' WHERE fullname = '" . $_SESSION['fullname'] . "'";
     $result = mysqli_query($conn, $sql);
 
     // Check if the update was successful.

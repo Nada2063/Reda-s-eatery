@@ -65,11 +65,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   if ($row_admin = mysqli_fetch_assoc($result_admin)) {
     $_SESSION['admin']=true;
-    $_SESSION['ID'] = $row_reg['id'];
-    $_SESSION['fullname'] = $row_reg['fullname'];
-    $_SESSION['email'] = $row_reg['email'];
-    $_SESSION['password'] = $row_reg['password'];
-    $_SESSION['phone'] = $row_reg['phone'];
+    $_SESSION['ID'] = $row_admin['id'];
+    $_SESSION['fullname'] = $row_admin['fullname'];
+    $_SESSION['email'] = $row_admin['email'];
+    $_SESSION['password'] = $row_admin['password'];
+    $_SESSION['phone'] = $row_admin['phone'];
 
     // Redirect to admin dashboard
     header("Location: admin.php");
