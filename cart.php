@@ -76,7 +76,7 @@
                     <button type="submit" class="btn" name="remove_from_cart">Remove <i class="fa fa-remove"></i></button>
                 </form>
                 <form method="post" action="wishlist.php">
-                    <input type="hidden" name="product_id" value="<?php echo $item['id']; ?>">
+                    <input type="hidden" name="product_id" value="<?php echo $item['ID']; ?>">
                     <button type="submit" class="btn" name="move_to_wishlist">Move to Wishlist <i class="fa fa-heart"></i></button>
                 </form>
             </div>

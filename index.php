@@ -23,7 +23,6 @@
                     <input class="search" type="text" placeholder="Search Food">
                     <i class="fa-solid fa-magnifying-glass"></i>
                   </li>
-                <li><a href="index.php">Home</a></li>
                
                 <li><a  class="sign" href="signin.php">Sign in</a></li>
                 <li><a class="sign" href="signup.php">Sign up</a></li>
@@ -38,7 +37,7 @@
     <div class="content">
         <h3>Welcome To Reda's eatery</h3>
         <h1>Returant & Cafe</h1>
-      <button onclick="location.href = 'index.html';">Pick your table</button>
+      <button onclick="location.href = 'signin.php';">Place Your Order</button>
     </div>
 
    <section class="alifood">

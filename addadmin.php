@@ -106,8 +106,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Check if the data was inserted successfully
         if ($result) {
-            // Redirect the user back to index.php
-            header('Location: index.php');
+            // Redirect the admin back to admin.php
+            header('Location: admin.php');
             exit();
         } else {
             // Handle the database insertion error
