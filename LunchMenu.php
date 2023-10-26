@@ -4,6 +4,7 @@
   <title>Reda's Eatery</title>
   <link rel="stylesheet" href="./Css/Menu.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/f4bd0b4361.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <nav>

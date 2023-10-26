@@ -13,48 +13,10 @@ button {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #000000;
+  background-color: white;
 }
 
-/*.topnav {
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-}
 
-.topnav a {
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 15px;
-}
-
-.topnav a.active {
-  background-color: #ab9174;
-}
-
-.topnav a:hover {
-  background-color: #ab9174;
-}
-
-.search-container {
-  display: flex;
-  align-items: center;
-}
-
-.search-container input[type="text"] {
-  padding: 5px;
-  border: 1px solid #ab9174;
-}
-
-#searchButton {
-  background-color: #ab9174;
-  color: #fff;
-  border: none;
-  padding: 5px 10px;
-  cursor: pointer;
-}*/
 nav {
   display: flex;
   justify-content: space-around;

@@ -35,8 +35,8 @@
     include_once "includes/dbh.inc.php";
     $result = mysqli_query($conn, $sql);
     ?>
-<div>
-  
+<div cl>
+</div>
   <div class="main">
     <h2>Breakfast Menu</h2>
     <?php
@@ -59,9 +59,10 @@
     <form method="post" action="cart.php">
     <input type="hidden" name="product_id" value="<?= $row['ID']?>">
     <button type="submit" class="btn" name="add_to_cart">Add To Cart</i></button>
-</form>
+    </form>
             
    </div>
+            </div>
        </div>
          <?php
          }
