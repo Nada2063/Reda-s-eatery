@@ -46,9 +46,9 @@
             <div class="menu-item">
             <img src="<?php echo $prod_image; ?>">
 <div class="design">
-    <h5><?php echo $title; ?></h5>
-    <h6><?php echo $description; ?></h6>
-    <h6><?php echo $price; ?></h6>
+    <h2><?php echo $title; ?></h2>
+    <h3><?php echo $description; ?></h3>
+    <h3><?php echo $price; ?></h3>
     <form method="post" action="cart.php">
     <input type="hidden" name="product_id" value="<?= $row['ID']?>">
     <button type="submit" class="btn" name="add_to_cart"><i class="fa fa-shopping-bag"></i></button>

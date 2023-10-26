@@ -13,15 +13,13 @@ body {
   padding: 20px;
   background: #E8E0D7;
 }
-.container img{
+.form-logo{
 
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     width: 25%;
-    position: relative;
-   
-
+    border-radius: 50%;
+  
 }
 .container {
   position: relative;
@@ -44,7 +42,7 @@ body {
   margin-top: 20px;
 }
 .input-box label {
-  color: #3AB9C0;
+  color:#ab9174;
 }
 .form :where(.input-box input, .select-box) {
   position: relative;

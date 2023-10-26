@@ -1,4 +1,11 @@
-body, h1, h2, h3, p, ul, li, button {
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+button {
   margin: 0;
   padding: 0;
   color: #fff;
@@ -10,7 +17,6 @@ body {
 }
 
 .topnav {
-
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -74,24 +80,34 @@ body {
 }
 
 .menu-item {
-  text-align: center;
-  padding: 10px;
-  border: 1px solid orangered;
-  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 30px;
+}
+
+.menu-item .design h2 {
+  font-size: 3rem;
+}
+
+.menu-item .design h3 {
+  font-size: 1.5rem;
 }
 
 .menu-item img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 5px;
+  width: 150px;
+  aspect-ratio: 1/1;
 }
 
 .menu-item p {
   margin: 5px 0;
 }
 
-.addButton, .orderButton, .deleteButton {
+.addButton,
+.orderButton,
+.deleteButton {
   background-color: orangered;
   color: #fff;
   border: none;
@@ -100,7 +116,9 @@ body {
   margin-right: 5px;
 }
 
-.addButton:hover, .orderButton:hover, .deleteButton:hover {
+.addButton:hover,
+.orderButton:hover,
+.deleteButton:hover {
   background-color: orangered;
 }
 
@@ -115,8 +133,7 @@ body {
   margin: 0;
 }
 
-.design button
-{
+.design button {
   background-color: orangered;
   position: relative;
 }
