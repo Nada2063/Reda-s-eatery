@@ -2,26 +2,35 @@
 <html>
 <head>
   <title>Reda's Eatery</title>
-  <link rel="stylesheet" type="text/css" href="Css\Category.css">
+  <link rel="stylesheet" type="text/css" href="./Css/Category.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/f4bd0b4361.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="topnav">
-  <div class="img">
-    <img src="photos/logo.jpg" height="50" width="50">
-  </div>
-  <a href="home.php" target="_blank">Home</a>
-  <a class="active" href="menu.php">Menu</a>
-  <a href="Contactus.php" target="_blank">Contact Us</a>
-  <div class="search-container">
-    <form action="search.php"> 
-      <input type="text" placeholder="Search Menu" name="search">
-      <button type="submit" id="searchButton"><i class="fa fa-search"></i></button>
-    </form>
-  </div>
-  <div class="name">
-    <p>Reda's Eatery</p>
-  </div>  
+<nav>
+          <div class="navbar-brand">
+            <img src="photos/lo.jpg" alt="" class="nav-logo">
+            <h2>REDA'S EATERY</h2>
+          </div>
+          <div class="navigation">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="home.php"><button class="nav-btn btn-secondry">Home</button></a>
+              </li>
+              <li class="nav-item">
+                <a href="home.php"><button class="nav-btn btn-secondry">Contact us</button></a>
+              </li>
+
+              <li class="search nav-item">
+              <input type="search" name="search" placeholder="Search Food">
+              <i class="fa-solid fa-magnifying-glass"></i>
+
+              
+              </li>
+            </ul>
+          </div>
+        </nav>
+  
 </div>
 <div>
   <div class="main">

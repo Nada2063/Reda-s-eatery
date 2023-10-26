@@ -24,12 +24,6 @@
 
           <div class="navigation">
             <ul class="nav-list">
-
-
-              
-
-
-
               <li class="nav-item">
                 <a href="signup.php"><button class="nav-btn btn-secondry">Sign Up</button></a>
               </li>
@@ -48,7 +42,7 @@
         </nav>
 
 
-    </div>
+    
 
     <div class="content">
         <h3>Welcome To Reda's eatery</h3>

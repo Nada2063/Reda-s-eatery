@@ -1,110 +1,162 @@
-body, h1, h2, h3, p, ul, li, button {
-    margin: 0;
-    padding: 0;
-    color: #333; /* Dark text color for readability */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+button {
+  margin: 0;
+  padding: 0;
+  color: #333; /* Dark text color for readability */
 }
 
 body {
-    font-family: 'Times New Roman', serif; /* A classic and elegant font choice */
-    background-color: #F6F6F6; /* A neutral and calming light gray background */
+  font-family: "Times New Roman", serif; /* A classic and elegant font choice */
+  background-color: #f6f6f6; /* A neutral and calming light gray background */
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: rgb(48, 47, 47);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+
+  transition: all 0.3s;
 }
 
-.topnav {
-    background-color: #3B7E86; /* A soothing teal for a calming atmosphere */
-    color: #FFF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.topnav a {
-    color: #FFF;
-    text-decoration: none;
-    padding: 10px 15px;
+.navbar-brand .nav-logo {
+  width: 80px;
+  border-radius: 50%;
 }
 
-.topnav a.active {
-    background-color: #2E6B78; /* A slightly darker teal for highlighting */
+.navbar-brand h2 {
+  color: #ab9174;
+  font-weight: 900;
+  font-size: 2rem;
 }
 
-.topnav a:hover {
-    background-color: #2E6B78;
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  gap: 50px;
 }
 
-.search-container input[type="text"] {
-    padding: 5px;
-    border: 1px solid #3B7E86; /* Matching the topnav background color */
+input[type="search"] {
+  border: 2px solid #ab9174;
+  padding: 10px 20px;
+  border-radius: 20px;
 }
 
-#searchButton {
-    background-color: #2E6B78;
-    color: #FFF;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
+nav i {
+  background-color: #ab9174;
+  border-radius: 50%;
+  color: white;
+  padding: 10px;
+  transition: all 0.4s;
+}
+
+.nav-btn {
+  background-color: #ab9174;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border: 2px solid #ab9174;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.btn-secondry {
+  border: 2px solid #ab9174;
+  color: #ab9174;
+  background: none;
+}
+
+.nav-btn:hover,
+nav i:hover {
+  border: 2px solid #ab9174;
+  color: #ab9174;
+  background: none;
+  box-shadow: 1px 2px 5px rgba(206, 206, 206, 0.4);
+  cursor: pointer;
 }
 
 .main {
-    background-color: #FFF;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #3B7E86;
+  background-color: #fff;
+  margin: 20px;
+  padding: 150px;
+  border: 1px solid #ab9174;
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .button {
-    background-color: #3B7E86; /* Matching the topnav background color */
-    color: #FFF;
-    margin: 20px;
-    padding: 5px 10px;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  background-color: #ab9174; /* Matching the topnav background color */
+  color: #fff;
+  margin: 20px;
+  padding: 5px 10px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .button:hover {
-    background-color: #2E6B78;
+  background-color: #a09487;
 }
 
 .category-button {
-    background-color: #2E6B78; /* A slightly darker teal for a pleasing look */
-    color: #FFF;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-    margin-bottom: 10px;
-    transition: background-color 0.3s ease;
+  background-color: #ab9174; /* A slightly darker teal for a pleasing look */
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
 }
 
 .category-button:hover {
-    background-color: #3B7E86;
+  background-color: #ab9174;
 }
 
 button {
-    background-color: #2E6B78; /* Matching the topnav and button color */
-    color: #FFF;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
+  background-color: #ab9174; /* Matching the topnav and button color */
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #3B7E86;
+  background-color: #ab9174;
 }
 
 .footer {
-    background-color: #736f6f; /* Dark gray for contrast with light background */
-    color: #FFF;
-    text-align: center;
-    padding: 10px;
+  background-color: #ab9174; /* Dark gray for contrast with light background */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }
 
 .footer p {
-    margin: 0;
+      margin: 0;
 }

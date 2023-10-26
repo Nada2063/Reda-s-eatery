@@ -2,34 +2,41 @@
 <html>
 <head>
   <title>Reda's Eatery</title>
-  <link rel="stylesheet" href="Css/Menu.css">
+  <link rel="stylesheet" href="./Css/Menu.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/f4bd0b4361.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="topnav">
-  <div class="img">
-  <img src="photos/logo.jpg" height="50" width="50">
-  </div>
-  <a href="home.php" target="_blank">Home</a>
-  <a class="active" href="menu.php">Menu</a>
-  <a href="Contactus.php" target="_blank">Contact Us</a>
-  <div class="search-container">
-    <form action="search.php">
-      <input type="text" placeholder="Search Menu" name="search">
-      <button type="submit" id="searchButton"><i class="fa fa-search"></i></button>
-    </form>
-  </div>
-  <div class="name">
-    <p>Reda's Eatery</p>
-  </div>  
-</div>
+<nav>
+          <div class="navbar-brand">
+            <img src="photos/lo.jpg" alt="" class="nav-logo">
+            <h2>REDA'S EATERY</h2>
+          </div>
+          <div class="navigation">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="home.php"><button class="nav-btn btn-secondry">Home</button></a>
+              </li>
+              <li class="nav-item">
+                <a href="menu.php"><button class="nav-btn btn-secondry">Menu</button></a>
+              </li>
+
+              <li class="search nav-item">
+              <input type="search" name="search" placeholder="Search Food">
+              <i class="fa-solid fa-magnifying-glass"></i>
+
+              
+              </li>
+            </ul>
+          </div>
+        </nav>
 <?php
     $sql = "SELECT * FROM products WHERE category='breakfast'";
     include_once "includes/dbh.inc.php";
     $result = mysqli_query($conn, $sql);
     ?>
 <div>
+  
   <div class="main">
     <h2>Breakfast Menu</h2>
     <?php
@@ -51,8 +58,9 @@
     <h3><?php echo $price; ?></h3>
     <form method="post" action="cart.php">
     <input type="hidden" name="product_id" value="<?= $row['ID']?>">
-    <button type="submit" class="btn" name="add_to_cart"><i class="fa fa-shopping-bag"></i></button>
+    <button type="submit" class="btn" name="add_to_cart">Add To Cart</i></button>
 </form>
+            
    </div>
        </div>
          <?php
