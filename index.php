@@ -2,34 +2,50 @@
 <html lang="en">
 <head>
 
-    <link rel="stylesheet" href="Css/homecss.css">
+    <link rel="stylesheet" href="./Css/homecss.css">
     <script src="https://kit.fontawesome.com/f4bd0b4361.js" crossorigin="anonymous"></script>
 
 
 </head>
 <body>
-    <div class="container">
-        <h1>REDA'S EATERY</h1>
+  
 
-    
-        <i class="fa-solid fa-bars" id="fx" onclick="showmenu()"></i>
-        <div class="navbar" id="naxx">
 
-            <i class="fa-sharp fa-solid fa-xmark" id="fx" onclick="hidemenu()"></i>
+        <nav>
+          <div class="navbar-brand">
+            <img src="photos/lo.jpg" alt="" class="nav-logo">
+            <h2>REDA'S EATERY</h2>
+          </div>
 
-            <ul>
+          <div class="nav-toggle">
+          <i class="fa-solid fa-bars" id="fx" onclick="showmenu()"></i>
+          <i class="fa-sharp fa-solid fa-xmark" id="fx" onclick="hidemenu()"></i>
+          </div>
 
-                <li>
-                    <input class="search" type="text" placeholder="Search Food">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                  </li>
-               
-                <li><a  class="sign" href="signin.php">Sign in</a></li>
-                <li><a class="sign" href="signup.php">Sign up</a></li>
+          <div class="navigation">
+            <ul class="nav-list">
+
+
+              
+
+
+
+              <li class="nav-item">
+                <a href="signup.php"><button class="nav-btn btn-secondry">Sign Up</button></a>
+              </li>
+              <li class="nav-item">
+                <a href="signin.php"><button class="nav-btn btn-secondry">Sign In</button></a>
+              </li>
+
+              <li class="search nav-item">
+              <input type="search" name="search" placeholder="Search Food">
+              <i class="fa-solid fa-magnifying-glass"></i>
+
+              
+              </li>
             </ul>
-
-        </div>
-
+          </div>
+        </nav>
 
 
     </div>
@@ -190,6 +206,26 @@ eserved by &copy;conceptial 2020</p>
   </footer>
 
 
+
+  <script>
+    // Get the navigation bar element
+const navbar = document.querySelector("nav");
+
+// Function to change navbar color on scroll
+function changeNavbarColorOnScroll() {
+  if (window.scrollY > 100) {
+    // If scrolled more than 50 pixels, change background color to desired color
+    navbar.style.backgroundColor = "rgba(0, 0, 0, 0.8)"; // You can change this color code to your desired color
+  } else {
+    // If not scrolled to 50 pixels, reset background color
+    navbar.style.backgroundColor = "rgba(0, 0, 0, 0.226)";
+  }
+}
+
+// Add scroll event listener to invoke the function on scroll
+window.addEventListener("scroll", changeNavbarColorOnScroll);
+
+  </script>
 
 </body>
 </html>

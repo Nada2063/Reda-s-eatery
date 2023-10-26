@@ -193,20 +193,12 @@ nav .fa-cart-shopping:hover {
   margin-right: 250px;
 }
 
-/* .search {
-  background: #fff;
-  width: 250px;
-  height: 20px;
-  border: none;
-  outline: none;
-  padding: 0 25px;
-  border-radius: 20px 0 0 20px;
-} */
+
 
 .content button {
   background: none;
   border: 1px solid #fff;
-  border-color: orangered;
+  border-color: #ab9174;
   margin-top: 50px;
   margin-left: 200px;
   color: #fff;
@@ -215,11 +207,7 @@ nav .fa-cart-shopping:hover {
   border-radius: 6px;
   transition: 0.5s all ease;
 }
-/* button:hover {
-  background-color: orangered;
-  color: black;
-  cursor: pointer;
-} */
+
 #fx {
   color: #fff;
   display: none;
@@ -261,7 +249,7 @@ nav .fa-cart-shopping:hover {
 }
 .foodcol {
   flex-basis: 31%;
-  background: orangered;
+  background: #ab9174;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
@@ -319,7 +307,7 @@ nav .fa-cart-shopping:hover {
 .layer h3 {
   width: 100%;
   font-weight: 500;
-  color: orangered;
+  color: #ab9174;
   font-size: 26px;
   bottom: 5px;
   left: 50%;
@@ -367,7 +355,7 @@ nav .fa-cart-shopping:hover {
 }
 
 .foodcol3 h3 {
-  color: orangered;
+  color: #ab9174;
   margin-top: 16px;
   margin-bottom: 15px;
   text-align: left;
@@ -403,7 +391,7 @@ nav .fa-cart-shopping:hover {
 }
 
 .alirates p {
-  color: orangered;
+  color: #ab9174;
 }
 
 footer {
@@ -445,7 +433,7 @@ footer {
   content: "";
   height: 2px;
   width: 15%;
-  background: #f12020;
+  background: #ab9174;
   top: -10px;
 }
 .left .content p {
@@ -468,7 +456,7 @@ footer {
   transition: 0.3s;
 }
 .left .content .social a span:hover {
-  background: #f12020;
+  background: #ab9174;
 }
 .center .content .fas {
   font-size: 1.4375rem;
@@ -482,7 +470,7 @@ footer {
   cursor: pointer;
 }
 .center .content .fas:hover {
-  background: #f12020;
+  background: #ab9174;
 }
 .center .content .text {
   font-size: 1.0625rem;
@@ -530,7 +518,7 @@ footer {
   width: 100%;
   border: none;
   outline: none;
-  background: #f12020;
+  background: #ab9174;
   font-size: 1.0625rem;
   font-weight: 500;
   cursor: pointer;
@@ -548,7 +536,7 @@ footer {
   color: #656565;
 }
 .bottom center a {
-  color: #f12020;
+  color: #ab9174;
   text-decoration: none;
 }
 .bottom center a:hover {

@@ -8,32 +8,7 @@
 
 </head>
 <body>
-    <!-- <div class="container">
-        <h1>REDA'S EATERY</h1>
-
-    
-        <i class="fa-solid fa-bars" id="fx" onclick="showmenu()"></i>
-        <div class="navbar" id="naxx">
-
-            <i class="fa-sharp fa-solid fa-xmark" id="fx" onclick="hidemenu()"></i>
-
-            <ul>
-
-                <li>
-                    <input class="search" type="text" placeholder="Search Food">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                  </li>
-                <li><a href="menu.php">Menu</a></li>
-                <li>
-                    <i class="fa-solid fa-cart-shopping" onclick="location.href = 'cart.php';"></i>
-                    <a href=""></a>
-               
-                </li>
-                <li><a  class="sign" href="profile.php">Profile</a></li>
-                <li><a class="sign" href="index.php">Log Out</a></li>
-            </ul>
-
-        </div> -->
+  
 
 
         <nav>

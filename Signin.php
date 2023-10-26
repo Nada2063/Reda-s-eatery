@@ -8,8 +8,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="icon" href="imgs/sweet dreams logo-01.png"type="image/icon type" />
-    <link rel="stylesheet" href="Css/signin.css" />
+    <link rel="stylesheet" href="./Css/signin.css" />
   </head>
 
   <body>
@@ -102,7 +101,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 <section class="container">
-    <a href="index.php"><img src="photos/lo.jpg" alt="logo"></a>
+<a href="index.php"><img class="form-logo" src="photos/lo.jpg" alt="logo" ></a>
     <form method="post" class="form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
         <div class="input-box">
             <label>Email</label>

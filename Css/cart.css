@@ -43,7 +43,7 @@ nav .wrapper1 .nav-items {
   font-size: 14px;
 }
 .nav-links li a {
-  color: #f27144;
+  color: #ab9174;
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
@@ -109,7 +109,7 @@ nav .wrapper1 .nav-items {
   height: 100%;
   pointer-events: none;
   transition: 0.6s;
-  background: #f27144;
+  background: #ab9174;
 }
 
 #active:checked + .menu-btn span {
@@ -117,11 +117,11 @@ nav .wrapper1 .nav-items {
 }
 #active:checked + .menu-btn:before {
   transform: rotate(45deg);
-  border-color: #f27144;
+  border-color: #ab9174;
 }
 #active:checked + .menu-btn:after {
   transform: rotate(-45deg);
-  border-color: #f27144;
+  border-color: #ab9174;
 }
 .wrapper ul {
   position: relative;
@@ -157,7 +157,7 @@ nav .wrapper1 .nav-items {
   transform: scaleY(1);
 }
 .wrapper ul li a:hover {
-  color: #f27144;
+  color: #ab9174;
 }
 input[type="checkbox"] {
   display: none;
@@ -237,7 +237,7 @@ input[type="checkbox"] {
 .searchButton {
   height: 36px;
   border: none;
-  background: #f27144;
+  background: #ab9174;
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;
@@ -255,7 +255,7 @@ input[type="checkbox"] {
 }
 
 h2 {
-  color: #f27144;
+  color: #ab9174;
   text-align: center;
   padding-top: 120px;
 }
@@ -282,7 +282,7 @@ h6 {
 }
 .btn {
   border: none;
-  background-color: #f27144;
+  background-color: #ab9174;
   color: white;
   border-radius: 15px;
   width: 80px;
@@ -392,7 +392,7 @@ h1 {
   margin-top: 115px;
   font-size: 30px;
   text-align: center;
-  color: #f27144;
+  color: #ab9174;
 }
 .prod {
   width: 15%;
@@ -453,11 +453,11 @@ h1 {
 }
 
 .checkout-btn button {
-  background-color: #f27144;
+  background-color: #ab9174;
   width: 100%;
   padding: 8px 20px;
   border-radius: 5px;
-  border: 1px solid #f27144;
+  border: 1px solid #ab9174;
   margin: 20px 0 0 0;
   transition: all 0.3s;
 }
@@ -467,7 +467,7 @@ h1 {
   text-decoration: none;
 }
 .checkout-btn button:hover {
-  background: #f27244af;
+  background: #ab9174;
   cursor: pointer;
 }
 
@@ -531,7 +531,7 @@ footer .install img {
 
 footer .follow i:hover,
 footer a:hover {
-  color: #f27144;
+  color: #ab9174;
 }
 
 .copyright {

@@ -11,15 +11,13 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background: #E8E0D7;
+  background: #c5b7a8;
 }
-.form-logo{
-
-    display: block;
-    margin: 0 auto;
-    width: 25%;
-    border-radius: 50%;
-  
+.form-logo {
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+  border-radius: 50%;
 }
 .container {
   position: relative;
@@ -42,7 +40,7 @@ body {
   margin-top: 20px;
 }
 .input-box label {
-  color:#ab9174;
+  color: #ab9174;
 }
 .form :where(.input-box input, .select-box) {
   position: relative;
@@ -67,7 +65,7 @@ body {
   margin-top: 20px;
 }
 .gender-box h3 {
-  color:#3AB9C0;
+  color: #3ab9c0;
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 8px;
@@ -82,13 +80,13 @@ body {
   column-gap: 5px;
 }
 .gender input {
-  accent-color:#707070;
+  accent-color: #707070;
 }
 .form :where(.gender input, .gender label) {
   cursor: pointer;
 }
 .gender label {
-  color:#3AB9C0;
+  color: #3ab9c0;
 }
 .address :where(input, .select-box) {
   margin-top: 15px;
@@ -98,12 +96,12 @@ body {
   width: 100%;
   outline: none;
   border: none;
-  color:#F27144;
+  color: #ab9174;
   font-size: 1rem;
 }
 .form button {
   height: 55px;
-  width:100%;
+  width: 100%;
   color: #fff;
   font-size: 1rem;
   font-weight: 400;
@@ -111,13 +109,12 @@ body {
   border: none;
   cursor: pointer;
   transition: all 0.2s ease;
-  background:#F27144;
+  background: #ab9174;
   border-radius: 50px;
 }
 .form button:hover {
-  background:#3AB9C0;
+  background: #3ab9c0;
 }
-
 
 @media screen and (max-width: 500px) {
   .form .column {

@@ -11,18 +11,15 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background: #E8E0D7;
+  background: #c5b7a8;
 }
-.container img{
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-    position: relative;
-   
-
+.form-logo {
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+  border-radius: 50%;
 }
+
 .container {
   position: relative;
   max-width: 700px;
@@ -44,7 +41,7 @@ body {
   margin-top: 20px;
 }
 .input-box label {
-  color: #3AB9C0;
+  color: #ab9174;
 }
 .form :where(.input-box input, .select-box) {
   position: relative;
@@ -64,7 +61,7 @@ body {
 
 .form button {
   height: 55px;
-  width:100%;
+  width: 100%;
   color: #fff;
   font-size: 1rem;
   font-weight: 400;
@@ -72,20 +69,20 @@ body {
   border: none;
   cursor: pointer;
   transition: all 0.2s ease;
-  background:#F27144;
+  background: #ab9174;
   border-radius: 50px;
 }
 .form button:hover {
-  background:#3AB9C0;
+  background: #3ab9c0;
 }
-.input-box a{
-    text-decoration: none;
-    color:#3AB9C0
+.input-box a {
+  text-decoration: none;
+  color: #3ab9c0;
 }
-.input-box span{
-    text-decoration: none;
-    color:#F27144
+.input-box span {
+  text-decoration: none;
+  color: #ab9174;
 }
-.input-box .error span{
-  color:red;
+.input-box .error span {
+  color: red;
 }
