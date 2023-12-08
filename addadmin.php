@@ -12,7 +12,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="Css/addadmin.css" />
+    <link rel="stylesheet" href="./Css/signup.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
       $(document).ready(function() {
@@ -126,7 +126,7 @@ function test_input($data)
     ?>
     
     <section class="container">
-    <a href="index.php"><img src="imgs/sweet dreams logo-01.png" alt="logo" ></a>
+    <a href="index.php"><img class="form-logo" src="photos/lo.jpg" alt="logo" ></a>
       <form method="post" class="form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
         <div class="input-box">
           <label>Full Name</label>

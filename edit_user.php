@@ -9,7 +9,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
-  <link rel="stylesheet" href="Css/edit_user.css" />
+  <link rel="stylesheet" href="./Css/edit_user.css" />
 </head>
 
 <body>

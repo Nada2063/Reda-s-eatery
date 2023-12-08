@@ -11,7 +11,7 @@ body{
 }
 
 h1{
-    color: #F27144;
+    color: #ab9174;
     text-align: center;
     margin-top:40px;
 }
@@ -54,7 +54,7 @@ h2{
     margin-top: 20px;
   }
   .input-box label {
-    color: #3AB9C0;
+    color: #ab9174;
   }
   .form :where(.input-box input, .select-box) {
     position: relative;
@@ -83,7 +83,7 @@ h2{
     border: none;
     cursor: pointer;
     transition: all 0.2s ease;
-    background:#F27144;
+    background:#ab9174;
     border-radius: 50px;
   }
   .form a{
@@ -100,7 +100,7 @@ h2{
   }
   .input-box span{
       text-decoration: none;
-      color:#F27144
+      color:#ab9174
   }
 
    footer{
@@ -168,7 +168,7 @@ h2{
   
   footer .follow i:hover, 
   footer a:hover{
-    color:#F27144;
+    color:#ab9174;
   
   }
   

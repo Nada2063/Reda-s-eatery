@@ -8,14 +8,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
-  <link rel="stylesheet" href="Css/profile.css" />
+  <link rel="stylesheet" href="./Css/profile.css" />
 </head>
 
 <body>
   
 <?php
 session_start();
-echo "<h1>Your Profile</h1>";
+echo "<h1>My Profile</h1>";
 ?>
 <section class=container>
 <form class="form">

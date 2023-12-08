@@ -6,7 +6,7 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: white;
+  background-image: url("../photos/ba.jpg");
 
 }
 nav{
@@ -43,7 +43,7 @@ nav .wrapper1 .nav-items{
   list-style: none;
 }
 .nav-links li a{
-  color:#F27144;
+  color:#ab9174;
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
@@ -89,7 +89,7 @@ nav .wrapper1 .nav-items{
       top: calc(50% - 1px);
       left: 30%;
       width: 40%;
-      border-bottom: 2px solid #F27144;
+      border-bottom: 2px solid #ab9174;
       transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
   }
   .menu-btn:before{
@@ -105,7 +105,7 @@ nav .wrapper1 .nav-items{
       height: 100%;
       pointer-events: none;
       transition: .6s;
-      background: #F27144;
+      background: #ab9174;
   }
   
   #active:checked + .menu-btn span {
@@ -113,11 +113,11 @@ nav .wrapper1 .nav-items{
   }
   #active:checked + .menu-btn:before {
       transform: rotate(45deg);
-    border-color: #F27144;
+    border-color: #ab9174;
   }
   #active:checked + .menu-btn:after {
       transform: rotate(-45deg);
-    border-color: #F27144;
+    border-color: #ab9174;
   }
   .wrapper ul{
     position: relative;
@@ -154,7 +154,7 @@ nav .wrapper1 .nav-items{
     transform: scaleY(1);
   }
   .wrapper ul li a:hover{
-    color: #F27144;
+    color: #ab9174;
   }
   input[type="checkbox"]{
     display: none;
@@ -239,7 +239,7 @@ nav .wrapper1 .nav-items{
      width: 40px;
      height: 36px;
     border: none;     
-    background: #F27144;
+    background: #ab9174;
      text-align: center;
      color: #fff;
      border-radius: 0 5px 5px 0;
@@ -267,7 +267,7 @@ nav .wrapper1 .nav-items{
 
 }
 h1{
-    color: #F27144;
+    color: #ab9174;
     text-align: center;
     margin-top:40px;
 }
@@ -314,7 +314,7 @@ h2{
     margin-top: 20px;
   }
   .input-box label {
-    color: #3AB9C0;
+    color: #ab9174;
   }
   .form :where(.input-box input, .select-box) {
     position: relative;
@@ -343,7 +343,7 @@ h2{
     border: none;
     cursor: pointer;
     transition: all 0.2s ease;
-    background:#F27144;
+    background:#ab9174;
     border-radius: 50px;
   }
   .form button:hover {
@@ -355,7 +355,7 @@ h2{
   }
   .input-box span{
       text-decoration: none;
-      color:#F27144
+      color:#ab9174
   }
 
    footer{
@@ -423,7 +423,7 @@ h2{
   
   footer .follow i:hover, 
   footer a:hover{
-    color:#F27144;
+    color:#ab9174;
   
   }
   
